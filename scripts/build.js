@@ -111,7 +111,7 @@ copyDir(CUSTOM_JS_DIR, path.join(OUTPUT_DIR, "assets/js/custom"));
 console.log("✔ Static assets copied");
 
 console.log("✔ Minifying output…");
-//await minifyDirectory(OUTPUT_DIR);
+await minifyDirectory(OUTPUT_DIR);
 console.log("✔ Minification complete");
 
 

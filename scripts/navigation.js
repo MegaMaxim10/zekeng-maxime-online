@@ -59,7 +59,7 @@ export function generateBreadcrumb(page, siteGraph, basePath = "") {
 
   let html = `<a href="${basePath}/">Home</a>`;
   let acc = siteGraph.contentDir;
-
+  
   parts.forEach(part => {
     acc = path.join(acc, part);
     const main = siteGraph.byDir[acc]?.main;
