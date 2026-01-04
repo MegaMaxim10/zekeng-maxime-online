@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <title>{{title}}</title>
@@ -10,13 +10,21 @@
 <body>
 
 <header class="site-header">
-  <div class="site-brand">
-    <a href="{{basePath}}/">{{siteTitle}}</a>
-  </div>
+  <div class="nav-container">
+    <div class="site-brand">
+      <a href="{{basePath}}/">{{siteTitle}}</a>
+    </div>
 
-  <nav class="site-nav">
-    {{navigation}}
-  </nav>
+    <button class="nav-toggle" aria-label="Open menu">☰</button>
+
+    <nav class="site-nav">
+      {{navigation}}
+    </nav>
+
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+      🌙
+    </button>
+  </div>
 
   <div class="breadcrumb">
     {{breadcrumb}}
