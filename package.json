@@ -24,5 +24,10 @@
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "glob": "^13.0.0"
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.3",
+    "html-minifier-terser": "^7.2.0",
+    "terser": "^5.44.1"
   }
 }

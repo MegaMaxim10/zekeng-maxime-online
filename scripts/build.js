@@ -2,6 +2,7 @@ import * as fs from "node:fs";
 import path from "node:path";
 import { globSync } from "glob";
 import { renderPage, siteData } from "../src/js/renderer.js";
+import { minifyDirectory } from "./minify.js";
 
 const CONTENT_DIR = "content";
 const OUTPUT_DIR = "public";
@@ -156,7 +157,6 @@ pages.forEach(page => {
     basePath: BASE_PATH,
     title: page.json.meta?.title || page.json.header?.title || SITE_TITLE,
     siteTitle: SITE_TITLE,
-    homeLink: "/",
     navigation: navigation,
     breadcrumb: generateBreadcrumb(page),
     content: htmlContent,
@@ -197,5 +197,10 @@ function copyDir(src, dest) {
 copyDir(ASSETS_DIR, path.join(OUTPUT_DIR, "assets"));
 copyDir(CSS_DIR, path.join(OUTPUT_DIR, "assets/css"));
 copyDir(CUSTOM_JS_DIR, path.join(OUTPUT_DIR, "assets/js/custom"));
+console.log(`Static assets copied.`);
+
+console.log("\nMinifying output...");
+await minifyDirectory(OUTPUT_DIR);
+console.log("Minification complete.");
 
 console.log("\nStatic site generation complete.");
