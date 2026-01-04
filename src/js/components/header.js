@@ -7,7 +7,7 @@ export function renderHeader(header) {
       ${header.subtitle ? `<h2>${escapeHtml(header.subtitle)}</h2>` : ""}
       ${header.lead ? `<p class="lead">${escapeHtml(header.lead)}</p>` : ""}
       ${header.image ? `
-        <img src="${header.image.src}"
+        <img src="{{basePath}}/${header.image.src}"
              alt="${escapeHtml(header.image.alt || "")}" />
       ` : ""}
     </section>

@@ -5,8 +5,12 @@ import { renderPage, siteData } from "../src/js/renderer.js";
 
 const CONTENT_DIR = "content";
 const OUTPUT_DIR = "public";
+const ASSETS_DIR = "assets";
+const CSS_DIR = "src/css";
+const CUSTOM_JS_DIR = "src/js/custom";
 const TEMPLATE_PATH = "src/templates/page.html";
 const SITE_TITLE = siteData.title || "My Static Site";
+const BASE_PATH = process.env.BASE_PATH || "";
 
 if (fs.existsSync(OUTPUT_DIR)) {
   fs.rmSync(OUTPUT_DIR, { recursive: true, force: true });
@@ -70,7 +74,7 @@ function generateNavigation() {
   const root = mainPageByDir[CONTENT_DIR].main;
 
   let html = `<ul>`;
-  html += `<li><a href="${urlFor(root)}">Home</a></li>`;
+  html += `<li><a href="{{basePath}}${urlFor(root)}">Home</a></li>`;
 
   Object.keys(mainPageByDir)
     .filter(dir => dir !== CONTENT_DIR && path.dirname(dir) === CONTENT_DIR)
@@ -80,7 +84,7 @@ function generateNavigation() {
       const title = main.json.meta?.title || main.json.header?.title;
 
       html += `<li>`;
-      html += `<a href="${urlFor(main)}">${title}</a>`;
+      html += `<a href="{{basePath}}${urlFor(main)}">${title}</a>`;
 
       if (main.json.meta?.genSubMenus === undefined || main.json.meta?.genSubMenus === true) {
         const childrenDirs = Object.keys(mainPageByDir)
@@ -92,7 +96,7 @@ function generateNavigation() {
           childrenDirs.forEach(cd => {
             const childMain = mainPageByDir[cd].main;
             const ct = childMain.json.meta?.title || childMain.json.header?.title;
-            html += `<li><a href="${urlFor(childMain)}">${ct}</a></li>`;
+            html += `<li><a href="{{basePath}}${urlFor(childMain)}">${ct}</a></li>`;
           });
           html += `</ul>`;
         }
@@ -102,23 +106,23 @@ function generateNavigation() {
     });
 
   html += `</ul>`;
-  return html;
+  return applyTemplate(html, { basePath: BASE_PATH });
 }
 
 function generateBreadcrumb(page) {
   const parts = page.dir.replace(CONTENT_DIR, "").split(/[\\/]/).filter(Boolean);
-  let html = `<a href="/">Home</a>`;
+  let html = `<a href="{{basePath}}/">Home</a>`;
   let acc = CONTENT_DIR;
 
   parts.forEach(part => {
     acc = path.join(acc, part);
     const main = mainPageByDir[acc]?.main;
     if (main) {
-      html += ` &raquo; <a href="${urlFor(main)}">${main.json.meta?.title || main.json.header?.title}</a>`;
+      html += ` &raquo; <a href="{{basePath}}${urlFor(main)}">${main.json.meta?.title || main.json.header?.title}</a>`;
     }
   });
 
-  return html;
+  return applyTemplate(html, { basePath: BASE_PATH });
 }
 
 function generateRelatedPages(page) {
@@ -131,24 +135,25 @@ function generateRelatedPages(page) {
 
   const links = related.map(p => {
     const title = p.json.meta?.title || p.json.header?.title;
-    return `<li><a href="${urlFor(p)}">${title}</a></li>`;
+    return `<li><a href="{{basePath}}${urlFor(p)}">${title}</a></li>`;
   }).join("");
 
-  return `
+  return applyTemplate(`
     <section class="related-pages">
       <h2>Related Pages</h2>
       <ul>${links}</ul>
     </section>
-  `;
+  `, { basePath: BASE_PATH });
 }
 
 const lastModified = new Date().toISOString().split("T")[0];
 const navigation = generateNavigation();
 
 pages.forEach(page => {
-  const htmlContent = renderPage(page.json);
+  const htmlContent = applyTemplate(renderPage(page.json), { basePath: BASE_PATH });
 
   const finalHtml = applyTemplate(template, {
+    basePath: BASE_PATH,
     title: page.json.meta?.title || page.json.header?.title || SITE_TITLE,
     siteTitle: SITE_TITLE,
     homeLink: "/",
@@ -166,5 +171,31 @@ pages.forEach(page => {
 
   console.log(`✔ Generated: ${outPath}`);
 });
+
+console.log(`Copying static assets...`);
+
+function copyDir(src, dest) {
+  if (!fs.existsSync(src)) return;
+
+  fs.mkdirSync(dest, { recursive: true });
+
+  const entries = fs.readdirSync(src, { withFileTypes: true });
+
+  for (const entry of entries) {
+    const srcPath = path.join(src, entry.name);
+    const destPath = path.join(dest, entry.name);
+
+    if (entry.isDirectory()) {
+      copyDir(srcPath, destPath);
+    } else {
+      fs.copyFileSync(srcPath, destPath);
+    }
+    console.log(`Copied ${srcPath} to ${destPath}`);
+  }
+}
+
+copyDir(ASSETS_DIR, path.join(OUTPUT_DIR, "assets"));
+copyDir(CSS_DIR, path.join(OUTPUT_DIR, "assets/css"));
+copyDir(CUSTOM_JS_DIR, path.join(OUTPUT_DIR, "assets/js/custom"));
 
 console.log("\nStatic site generation complete.");
