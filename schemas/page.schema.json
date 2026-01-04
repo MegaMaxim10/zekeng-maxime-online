@@ -41,7 +41,9 @@
         "visibility": {
           "type": "string",
           "enum": ["public", "private"]
-        }
+        },
+        "genSubMenus": { "type": "boolean" },
+        "genRelatedPages": { "type": "boolean" }
       },
       "additionalProperties": false
     },
@@ -292,6 +294,25 @@
         }
       ]
     },
+    "htmlContentBlock": {
+      "allOf": [
+        { "$ref": "#/$defs/blockBase" },
+        {
+          "type": "object",
+          "properties": {
+            "type": { "const": "html-content" },
+            "data": {
+              "type": "object",
+              "required": ["url"],
+              "properties": {
+                "url": { "type": "string", "format": "uri" }
+              },
+              "additionalProperties": false
+            }
+          }
+        }
+      ]
+    },
     "block": {
       "oneOf": [
         { "$ref": "#/$defs/paragraphBlock" },
@@ -301,7 +322,8 @@
         { "$ref": "#/$defs/linkBlock" },
         { "$ref": "#/$defs/cardGridBlock" },
         { "$ref": "#/$defs/assetBlock" },
-        { "$ref": "#/$defs/formBlock" }
+        { "$ref": "#/$defs/formBlock" },
+        { "$ref": "#/$defs/htmlContentBlock" }
       ]
     },
     "footer": {

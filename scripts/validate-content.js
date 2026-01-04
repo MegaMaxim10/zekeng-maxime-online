@@ -1,5 +1,4 @@
-import fs from "fs";
-import path from "path";
+import * as fs from 'node:fs';
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
 import { globSync } from "glob";
@@ -26,18 +25,18 @@ files.forEach(file => {
   const data = JSON.parse(fs.readFileSync(file, "utf-8"));
   const valid = validate(data);
 
-  if (!valid) {
-    hasErrors = true;
-    console.error(`❌ Validation failed: ${file}`);
-    console.error(validate.errors);
+  if (valid) {
+    console.log(`Valid: ${file}`);
   } else {
-    console.log(`✅ Valid: ${file}`);
+    hasErrors = true;
+    console.error(`Validation failed: ${file}`);
+    console.error(validate.errors);
   }
 });
 
 if (hasErrors) {
-  console.error("\n❌ Content validation failed.");
+  console.error("\nContent validation failed.");
   process.exit(1);
 } else {
-  console.log("\n✅ All content files are valid.");
+  console.log("\nAll content files are valid.");
 }

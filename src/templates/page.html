@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{title}}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-brand">
+    <a href="{{homeLink}}">{{siteTitle}}</a>
+  </div>
+
+  <nav class="site-nav">
+    {{navigation}}
+  </nav>
+
+  <div class="breadcrumb">
+    {{breadcrumb}}
+  </div>
+</header>
+
+<section class="main">
+  {{content}}
+</section>
+
+{{relatedPages}}
+
+<footer class="site-footer">
+  <p>© {{year}} {{siteTitle}}</p>
+  <p>Last updated: {{lastModified}}</p>
+</footer>
+
+<script type="text/javascript" src="/src/js/custom/global.js"></script>
+</body>
+</html>
