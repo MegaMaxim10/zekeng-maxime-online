@@ -38,7 +38,7 @@ jobs:
       - name: Build static site
         run: npm run build
         env:
-          BASE_PATH: "/zekeng-maxime-online"
+          BASE_PATH: "/zekeng.max"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
