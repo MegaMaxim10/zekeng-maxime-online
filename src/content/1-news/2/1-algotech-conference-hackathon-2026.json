@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "id": "algotech-conference-hackathon-2026",
+    "title": "From Hackathon to Conference: Supporting AlgoTech 2026 at the University of Dschang",
+    "description": "I supported the AlgoTech 2026 conference and hackathon at the University of Dschang as a teacher-researcher, helping turn a student-led event into a structured learning, research, outreach, and development experience.",
+    "image": "assets/images/activities/algotech-conf-2026/conference-29052026/conf-3.jpeg",
+    "language": "en",
+    "version": "1.0",
+    "status": "published",
+    "slugFromTitle": true,
+    "publishedTime": "2026-06-15T10:00:00+01:00",
+    "lastUpdated": "2026-06-15",
+    "tags": [
+      "algotech",
+      "university-of-dschang",
+      "hackathon",
+      "artificial-intelligence",
+      "cybersecurity",
+      "student-engagement"
+    ]
+  },
+  "header": {
+    "title": "From Hackathon to Conference: Supporting AlgoTech 2026 at the University of Dschang",
+    "lead": "In May 2026, I took part in AlgoTech's student-led conference on artificial intelligence, cybersecurity, and responsible youth entrepreneurship - not only as an attendee, but also as a teacher-researcher involved in shaping the hackathon, supervising the teams, and evaluating their work.",
+    "image": {
+      "src": "assets/images/activities/algotech-conf-2026/conference-29052026/conf-3.jpeg",
+      "alt": "Group photo after the AlgoTech 2026 conference at the University of Dschang"
+    }
+  },
+  "body": [
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "A Student-Led Event With a Strong Academic Purpose"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "The [b]AlgoTech Club[/b] of the Faculty of Science at the [b]University of Dschang[/b] organized a conference under the theme [i]\"Artificial Intelligence and Cybersecurity: Pillars of Responsible and Sustainable Youth Entrepreneurship\"[/i]. As a teacher-researcher in the Department of Mathematics and Computer Science, and as someone who works closely with students, I was happy to support an initiative that connected classroom learning with professional practice, digital innovation, and local development."
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "For me, the value of the event was not only in the conference day itself. It was in the full process: helping students transform an ambitious idea into a structured academic activity, preparing a meaningful hackathon challenge, accompanying the teams during the competition, and contributing to a fair evaluation of their work."
+      }
+    },
+    {
+      "type": "table",
+      "data": {
+        "compact": true,
+        "headers": ["Item", "Details"],
+        "rows": [
+          ["Organizer", "AlgoTech Club, Faculty of Science, University of Dschang"],
+          ["Academic context", "Department of Mathematics and Computer Science"],
+          ["Theme", "Artificial intelligence, cybersecurity, and responsible youth entrepreneurship"],
+          ["Hackathon", "22 May 2026"],
+          ["Conference", "29 May 2026"],
+          ["Venue", "Auditorium Joseph Fondjo, University of Dschang"],
+          ["My role", "Event structuring support, hackathon idea and artifacts, supervision, and evaluation"]
+        ]
+      }
+    },
+    {
+      "type": "media-image",
+      "data": {
+        "src": "src/assets/images/activities/algotech-conf-2026/conference-29052026/conf-1.jpeg",
+        "alt": "Prize moment during the AlgoTech 2026 conference",
+        "legend": "The conference day included the announcement of the hackathon winners and the presentation of awards.",
+        "zoom": true
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 3,
+        "text": "Designing the Hackathon as Applied Learning"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "The first phase took place on [b]22 May 2026[/b] through a cybersecurity-oriented hackathon. My contribution started upstream: I proposed the hackathon idea, prepared the challenge artifacts, and helped frame the exercise so that students would not simply \"solve tasks\", but also explain their reasoning and connect technical findings to practical recommendations."
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "This distinction mattered to me pedagogically. A good technical exercise should reveal more than tool usage. It should make students practice diagnosis, documentation, teamwork, ethical reasoning, and the ability to communicate risk in a way that is useful for organizations and communities."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "[b]Technical competence[/b]: teams had to engage with realistic cybersecurity challenges and show evidence of their work.",
+          "[b]Methodological clarity[/b]: the evaluation rewarded clear reasoning, not only the final result.",
+          "[b]Responsible recommendations[/b]: participants were encouraged to translate vulnerabilities into concrete security advice.",
+          "[b]Team coordination[/b]: the competition created a space where students had to distribute tasks, manage time, and learn from one another."
+        ]
+      }
+    },
+    {
+      "type": "media-image",
+      "data": {
+        "src": "src/assets/images/activities/algotech-conf-2026/hackaton-22052026/hackaton-7.jpeg",
+        "alt": "Students working in teams during the AlgoTech hackathon",
+        "legend": "During the hackathon, the teams worked under time constraints and had to combine technical execution with clear reporting.",
+        "zoom": true
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 3,
+        "text": "Supervising, Evaluating, and Learning From the Teams"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "During the hackathon, I supervised the progress of the participating teams and later contributed to the assessment of their performances. The scoring rubric considered the success of each challenge, the clarity of the approach, the relevance of the recommendations, and the quality of the final report. This made the evaluation both technical and formative."
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "Some teams showed strong pentesting reflexes and good synchronization; others had promising cybersecurity notions but still needed practice in implementation and reporting. That diversity of levels was precisely what made the exercise useful: it gave us a concrete view of what students already know, where they hesitate, and how future teaching activities can better support them."
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 3,
+        "text": "The Conference Day: Outreach, Governance, and Development"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "The second phase took place on [b]29 May 2026[/b] at the Auditorium Joseph Fondjo. The conference brought together students, teachers, university actors, and technology professionals around artificial intelligence, cybersecurity, digital entrepreneurship, automation, cloud systems, and local innovation. It also included the announcement of the hackathon winners, which gave public recognition to the work done by the student teams."
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "I see this kind of initiative as part of university governance in practice. It helps student organizations grow responsibly, creates bridges between the department and external professionals, and gives academic supervision to activities that can easily become informal if they are not structured. Supporting AlgoTech was therefore also a way to strengthen scientific outreach from within the university."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "[b]Pedagogy[/b]: the event connected theoretical learning with practical problem solving.",
+          "[b]Research culture[/b]: it encouraged students to analyze, document, justify, and communicate technical results.",
+          "[b]Scientific outreach[/b]: it opened the department to professionals, alumni, and local digital actors.",
+          "[b]University governance[/b]: it showed how teachers can accompany student initiatives without taking ownership away from students.",
+          "[b]Development impact[/b]: it linked AI and cybersecurity to youth entrepreneurship, employability, and responsible digital transformation in Cameroon."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 3,
+        "text": "Why This Matters to Me"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "As a teacher-researcher, I believe that a university should be more than a place where knowledge is transmitted. It should also be a place where students learn to build, test, explain, collaborate, and serve. The AlgoTech 2026 conference and hackathon offered a modest but concrete example of that vision: students leading, teachers supporting, professionals sharing experience, and the university acting as a platform for responsible innovation."
+      }
+    },
+    {
+      "type": "image-gallery",
+      "data": {
+        "title": "AlgoTech 2026: Hackathon and Conference Highlights",
+        "layout": "photo",
+        "zoom": true,
+        "carousel": true,
+        "images": [
+          {
+            "src": "src/assets/images/activities/algotech-conf-2026/hackaton-22052026/hackaton-1.jpeg",
+            "alt": "Two students collaborating on laptops during the AlgoTech hackathon",
+            "caption": "Team-based problem solving during the hackathon"
+          },
+          {
+            "src": "src/assets/images/activities/algotech-conf-2026/hackaton-22052026/hackaton-2.jpeg",
+            "alt": "Two hackathon participants at a desk with laptops and phones",
+            "caption": "A short pause between challenge attempts"
+          },
+          {
+            "src": "src/assets/images/activities/algotech-conf-2026/hackaton-22052026/hackaton-3.jpeg",
+            "alt": "Two students focused on the same laptop during the cybersecurity challenge",
+            "caption": "Pair work and technical discussion during the challenge"
+          },
+          {
+            "src": "src/assets/images/activities/algotech-conf-2026/hackaton-22052026/hackaton-4.jpeg",
+            "alt": "Two participants working side by side on separate laptops during the hackathon",
+            "caption": "Focused individual execution within a team setting"
+          },
+          {
+            "src": "src/assets/images/activities/algotech-conf-2026/hackaton-22052026/hackaton-5.jpeg",
+            "alt": "A hackathon team working with laptops and notes during the cybersecurity exercise",
+            "caption": "Hands-on cybersecurity practice and note taking"
+          },
+          {
+            "src": "src/assets/images/activities/algotech-conf-2026/hackaton-22052026/hackaton-6.jpeg",
+            "alt": "Wide classroom view of multiple teams working during the AlgoTech hackathon",
+            "caption": "Parallel team sessions in the classroom"
+          },
+          {
+            "src": "src/assets/images/activities/algotech-conf-2026/hackaton-22052026/hackaton-7.jpeg",
+            "alt": "Two students working through hackathon tasks with a laptop, phone, and notebook",
+            "caption": "Problem solving under time constraints"
+          },
+          {
+            "src": "src/assets/images/activities/algotech-conf-2026/conference-29052026/conf-1.jpeg",
+            "alt": "Hackathon winners receiving awards during the AlgoTech conference",
+            "caption": "Award presentation for the hackathon winners"
+          },
+          {
+            "src": "src/assets/images/activities/algotech-conf-2026/conference-29052026/conf-2.jpeg",
+            "alt": "A university representative speaking at the AlgoTech conference podium",
+            "caption": "Institutional remarks during the conference"
+          },
+          {
+            "src": "src/assets/images/activities/algotech-conf-2026/conference-29052026/conf-3.jpeg",
+            "alt": "Group photo of speakers, students, organizers, and guests after the AlgoTech conference",
+            "caption": "Conference group photo with participants and guests"
+          },
+          {
+            "src": "src/assets/images/activities/algotech-conf-2026/conference-29052026/conf-4.jpeg",
+            "alt": "AlgoTech student organizers posing with academic representatives after the conference",
+            "caption": "Student leadership with academic support"
+          },
+          {
+            "src": "src/assets/images/activities/algotech-conf-2026/conference-29052026/conf-5.jpeg",
+            "alt": "AlgoTech organizers and I posing after the conference",
+            "caption": "Organizing team and I after the event"
+          }
+        ]
+      }
+    }
+  ]
+}
