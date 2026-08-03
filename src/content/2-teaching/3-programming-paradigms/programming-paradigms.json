@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "id": "programming-paradigms",
+    "title": "Programming Paradigms and Languages",
+    "description": "Courses covering functional programming, logic programming, object-oriented programming, Python, Java, and the ability to think beyond a single language syntax.",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "teaching",
+      "functional-programming",
+      "object-oriented-programming",
+      "python",
+      "java"
+    ]
+  },
+  "header": {
+    "title": "Programming Paradigms and Languages",
+    "lead": "These courses help students understand that programming is not only syntax. It is a way of modeling problems, organizing computation, and selecting a style of reasoning suited to the task."
+  },
+  "body": [
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Course Context"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "This family groups courses and tutorials in functional programming, logic programming, object-oriented programming, Python programming, Java, and advanced language practice. The aim is to help students see the strengths and limits of different paradigms rather than treating each language as an isolated technical island."
+      }
+    },
+    {
+      "type": "table",
+      "style": ["teaching-record-table"],
+      "data": {
+        "caption": "Teaching record",
+        "compact": true,
+        "headers": ["Years", "Role", "Institution", "Track / level", "Courses documented"],
+        "rows": [
+          ["2022-2026", "Course lecturer / main instructor", "University of Dschang, Faculty of Science", "Computer Science, L1", "Introduction to Functional Programming"],
+          ["2017-2022", "Teaching assistant / monitor", "University of Dschang, Department of Mathematics and Computer Science", "Computer Science, L1, and master tutorial/practical groups", "Functional programming tutorials and assessment support"],
+          ["2021-2024", "Visiting lecturer / course instructor", "Douala Institute of Technology (DIT)", "L3 and M1 engineering cohorts", "Functional and Logic Programming, Advanced Java and programming-language practice"],
+          ["2023-2024", "Course lecturer / instructor", "University of Dschang, professional RTS context", "RTS practical cohort", "Object-Oriented Programming"],
+          ["2024-2026", "Visiting lecturer / course instructor", "Adventist University Cosendai", "Bachelor-level Computer Science / Software Engineering", "Python programming and Object-Oriented Programming"]
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "data": {
+        "compact": true,
+        "headers": ["Representative labels", "Teaching focus"],
+        "rows": [
+          ["Functional Programming", "Functions, recursion, lists, higher-order thinking, immutability, and expression-oriented design."],
+          ["Logic Programming", "Facts, rules, inference, formal logic, and declarative problem solving."],
+          ["Object-Oriented Programming", "Classes, objects, encapsulation, inheritance, polymorphism, interfaces, and exceptions."],
+          ["Python / Java Programming", "Language practice, problem solving, project implementation, and code organization."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Main Notions"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Imperative, functional, declarative, logic, event-driven, and object-oriented programming styles.",
+          "Recursion, higher-order functions, pattern-like reasoning, and composition.",
+          "Classes, constructors, access control, inheritance, polymorphism, abstract classes, interfaces, and exception handling.",
+          "Debugging across paradigms: understanding execution, state, evaluation, and side effects.",
+          "Language selection as a design decision, not a matter of fashion."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "How the Course Runs"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "The learning sequence usually starts from familiar imperative examples and then introduces alternative ways of expressing the same problem. Students compare styles, rewrite solutions, and discuss the consequences for readability, modularity, reuse, and correctness."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "[b]Comparative exercises[/b]: the same problem may be solved with different paradigms to reveal trade-offs.",
+          "[b]Code reading[/b]: students learn to infer design intent from existing code.",
+          "[b]Mini-projects[/b]: object-oriented or Python/Java projects help connect language constructs with application structure."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Competencies Developed"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Recognize which programming style fits a problem.",
+          "Write modular code using functions, classes, or rules depending on the paradigm.",
+          "Move from language syntax to design intention.",
+          "Explain the behavior of a program in terms of evaluation, state, and abstraction.",
+          "Build the flexibility needed to learn new languages more quickly."
+        ]
+      }
+    }
+  ]
+}

@@ -2,26 +2,161 @@
   "meta": {
     "id": "other-activities",
     "title": "Other Activities",
+    "description": "Creative writing, music, video, public tutorials, and cultural activities that complement my academic and engineering work.",
     "language": "en",
     "version": "1.0",
-    "genRelatedPages": true
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "creative-writing",
+      "music",
+      "public-tutorials",
+      "outreach",
+      "culture"
+    ],
+    "genRelatedPages": true,
+    "genSubMenus": false
   },
   "header": {
     "title": "Other Activities",
-    "lead": "Additional professional and personal activities."
+    "lead": "Beyond teaching, research, and consulting, I keep a creative and public-facing practice made of poetry, music, video, tutorials, and community-oriented expression."
   },
   "body": [
     {
       "type": "heading",
       "data": {
         "level": 2,
-        "text": "Other Activities"
+        "text": "Creative Snapshot"
       }
     },
     {
       "type": "paragraph",
       "data": {
-        "text": "This page is currently under construction. More content will be available soon."
+        "text": "These activities are not a separate life from my technical work. They reveal the same habits from another angle: writing to clarify emotion, performing to connect with people, teaching publicly to make knowledge travel, and using digital platforms as spaces where ideas can be archived, shared, discussed, and revisited."
+      }
+    },
+    {
+      "type": "card-grid",
+      "style": ["other-stat-grid"],
+      "data": {
+        "cards": [
+          {
+            "title": "19 public poems",
+            "description": "Published as Maxim10 on La Passion des Poemes between 2015 and 2018."
+          },
+          {
+            "title": "21k+ visits",
+            "description": "A cumulative public reading footprint across the listed poetry portfolio."
+          },
+          {
+            "title": "27 tracks",
+            "description": "SoundCloud publicly lists Max Zekill with 27 tracks and 3 playlists."
+          },
+          {
+            "title": "2017+ channel",
+            "description": "Max Zekill TV has been present on YouTube since 2017, with music and outreach videos."
+          },
+          {
+            "title": "Public tutorials",
+            "description": "Earlier computer-science courses and tutorials extend my teaching beyond formal classrooms."
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Three Expressions"
+      }
+    },
+    {
+      "type": "card-grid",
+      "style": ["other-domain-grid"],
+      "data": {
+        "cards": [
+          {
+            "title": "Writing and Poetry",
+            "description": "A public poetic archive around love, family, solidarity, social feeling, solitude, humor, and community.",
+            "link": "5-other-activities/1-writing/writing.html",
+            "linkLabel": "Read the writing page"
+          },
+          {
+            "title": "Music and Performance",
+            "description": "Songs, lyrics videos, freestyles, SoundCloud releases, and the Max Zekill artistic identity.",
+            "link": "5-other-activities/2-singing/singing.html",
+            "linkLabel": "Open the music page"
+          },
+          {
+            "title": "Technical Outreach and Public Tutorials",
+            "description": "Public computer-science tutorials, video explanation, and a habit of turning technical knowledge into accessible learning material.",
+            "link": "5-other-activities/3-technical-outreach-and-public-tutorials/technical-outreach-and-public-tutorials.html",
+            "linkLabel": "Explore outreach"
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Public Access"
+      }
+    },
+    {
+      "type": "link-groups",
+      "style": ["other-links"],
+      "data": {
+        "title": "Profiles and Archives",
+        "columns": 2,
+        "groups": [
+          {
+            "title": "Writing",
+            "links": [
+              {
+                "label": "La Passion des Poemes - Maxim10 profile",
+                "url": "https://www.lapassiondespoemes.com/?action=userinfo&ID=12662",
+                "external": true,
+                "icon": "link"
+              },
+              {
+                "label": "La Passion des Poemes - poetry portfolio",
+                "url": "https://www.lapassiondespoemes.com/?action=SHOWPORTFOLIO&ID=12662",
+                "external": true,
+                "icon": "link"
+              }
+            ]
+          },
+          {
+            "title": "Music and video",
+            "links": [
+              {
+                "label": "Max Zekill TV on YouTube",
+                "url": "https://www.youtube.com/@maxzekilltv",
+                "external": true,
+                "icon": "link"
+              },
+              {
+                "label": "Max Zekill on SoundCloud",
+                "url": "https://soundcloud.com/milliam-maxime-zekeng-ndadji",
+                "external": true,
+                "icon": "link"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Why It Belongs Here"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "A portfolio should not only prove competence; it should also reveal the person behind the competence. These activities show how I use language, sound, teaching, digital publication, and community participation to make ideas circulate beyond institutional formats."
       }
     }
   ]

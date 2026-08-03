@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "id": "ai-optimization-and-advanced-computing",
+    "title": "AI, Optimization and Advanced Computing",
+    "description": "Courses and teaching materials on artificial intelligence, expert systems, formal logic, operations research, parallel information processing, embedded systems, and advanced computing.",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "teaching",
+      "artificial-intelligence",
+      "expert-systems",
+      "operations-research",
+      "advanced-computing"
+    ]
+  },
+  "header": {
+    "title": "AI, Optimization and Advanced Computing",
+    "lead": "This course family exposes students to computational intelligence, formal reasoning, optimization, parallelism, and advanced computing topics that extend their ability to model complex problems."
+  },
+  "body": [
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Course Context"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "This family brings together artificial intelligence, expert systems, formal logic, logic programming, operations research, parallel information processing, compilation, embedded systems, and related advanced topics. The courses vary in technical emphasis, but they share a concern for modeling, reasoning, search, optimization, and system-level abstraction."
+      }
+    },
+    {
+      "type": "table",
+      "style": ["teaching-record-table"],
+      "data": {
+        "caption": "Teaching record",
+        "compact": true,
+        "headers": ["Years", "Role", "Institution", "Track / level", "Courses documented"],
+        "rows": [
+          ["2021-2022", "Visiting lecturer / course instructor", "Douala Institute of Technology (DIT)", "M1 engineering cohort", "Artificial Intelligence and Human-Computer Interaction"],
+          ["2021-2024", "Visiting lecturer / course instructor", "Douala Institute of Technology (DIT)", "L3 engineering cohort", "Operations Research and Parallel Information Processing"],
+          ["2017-2021", "Teaching assistant / monitor", "University of Dschang, Department of Mathematics and Computer Science", "Computer Science, L3-M1 practical groups", "Compilation, advanced algorithmic work and systems-oriented tutorials"],
+          ["2023-2024", "Course lecturer / instructor", "University of Dschang, RTS professional context", "RTS cohort", "Embedded Systems and system-level computing exercises"],
+          ["2024-2025", "Visiting lecturer / course instructor", "Adventist University Cosendai", "Bachelor-level Computer Science / Software Engineering", "Artificial Intelligence and Expert Systems"],
+          ["2023-2024", "Course lecturer / main instructor", "University of Dschang, Faculty of Science", "Computer Science, M1", "Advanced algorithmics material"]
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "data": {
+        "compact": true,
+        "headers": ["Representative labels", "Teaching focus"],
+        "rows": [
+          ["Artificial Intelligence and Expert Systems", "Knowledge representation, inference, logic, expert reasoning, and introductory AI tools."],
+          ["Formal Logic / Logic Programming", "Propositional logic, predicates, rules, reasoning, and declarative problem solving."],
+          ["Operations Research", "Optimization models, decision problems, constraints, and quantitative reasoning."],
+          ["Parallel Information Processing", "Parallelism, decomposition, performance, and coordinated computation."],
+          ["Compilation and Embedded Systems", "Language processing, system constraints, low-level execution, and embedded/software interaction."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Main Notions"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Knowledge representation, inference, rules, facts, expert systems, and reasoning under constraints.",
+          "Formal logic, propositional reasoning, predicates, proof intuition, and declarative specifications.",
+          "Optimization problems, objective functions, constraints, search, and decision support.",
+          "Parallelism, task decomposition, communication, coordination, and performance trade-offs.",
+          "System-level concepts: compilation pipeline, embedded constraints, and the interaction between software and execution environments."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "How the Course Runs"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "The course often starts from modeling: what is the problem, what are the variables, what is known, what is uncertain, what must be optimized, and what form of reasoning is appropriate? From there, students move to algorithms, tools, examples, and sometimes small implementations."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "[b]Reasoning-centered activities[/b]: students formalize problems before trying to compute answers.",
+          "[b]Model comparison[/b]: different representations are compared for clarity, tractability, and usefulness.",
+          "[b]Applied exercises[/b]: examples connect abstract tools with decision, automation, or system-design problems."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Competencies Developed"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Model a problem using logic, rules, constraints, or optimization structures.",
+          "Understand when algorithmic search, inference, or optimization is appropriate.",
+          "Read and explain formal representations of computational problems.",
+          "Connect AI and advanced computing concepts to real technical constraints.",
+          "Develop abstraction skills that support research, engineering, and advanced study."
+        ]
+      }
+    }
+  ]
+}

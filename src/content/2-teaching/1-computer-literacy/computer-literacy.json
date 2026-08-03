@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "id": "computer-literacy",
+    "title": "Computer Literacy and Scientific Computing for Science Students",
+    "description": "Introductory computer science, digital literacy, and applied scientific computing in Python for science students, focused on practical autonomy, scientific calculations, and responsible use of software.",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "teaching",
+      "computer-literacy",
+      "scientific-computing",
+      "introductory-computing"
+    ]
+  },
+  "header": {
+    "title": "Computer Literacy and Scientific Computing for Science Students",
+    "lead": "These courses introduce science students to computing as a practical intellectual tool: understanding digital environments, using software responsibly, and applying Python to scientific calculations."
+  },
+  "body": [
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Course Context"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "This family includes introductory computing courses for biology and earth-science students, together with the Physics L2 course on applied scientific computing and programming in Python. The objective is not to turn every learner into a software engineer, but to give science students enough conceptual and practical fluency to use computing responsibly in their scientific training."
+      }
+    },
+    {
+      "type": "table",
+      "style": ["teaching-record-table"],
+      "data": {
+        "caption": "Teaching record",
+        "compact": true,
+        "headers": ["Years", "Role", "Institution", "Track / level", "Courses documented"],
+        "rows": [
+          ["2022-2026", "Course lecturer / main instructor", "University of Dschang, Faculty of Science", "Biochemistry, Animal Biology, Plant Biology and Earth Sciences; mainly L1", "Informatique / Introduction to Computer Science, including BIO162 and STE152 variants"],
+          ["2022-2025", "Course lecturer / main instructor", "University of Dschang, Faculty of Science", "Physics, L2", "Introduction to Scientific Computing and Programming in Python"]
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "data": {
+        "compact": true,
+        "headers": ["Representative labels", "Teaching focus"],
+        "rows": [
+          ["Introduction to Computer Science", "Digital environments, data, files, software tools, and basic computational thinking."],
+          ["Computer Science for Biology / Earth Sciences", "Use of computing concepts and tools in scientific contexts."],
+          ["Applied Scientific Computing in Python", "Numerical calculations, scientific formulas, simple numerical methods, and Python scripts for physics-oriented problem solving."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Main Notions"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Basic computer architecture, operating systems, file organization, and digital work habits.",
+          "Representation of information: text, numbers, tables, files, and structured data.",
+          "Introductory algorithmic reasoning through everyday and scientific problems.",
+          "Python programming for scientific calculations: variables, expressions, conditions, loops, functions, arrays or lists, and reusable scripts.",
+          "Elementary numerical methods and scientific-computing examples such as approximation, iteration, root finding, and data preparation."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "How the Course Runs"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "The course usually alternates short conceptual explanations with guided exercises. Students are progressively moved from tool usage to reasoning: they learn not only which button to click or which command to write, but why a representation, a procedure, or a computation is appropriate."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "[b]Guided practice[/b]: students reproduce small operations before adapting them to new examples.",
+          "[b]Scientific examples[/b]: calculations, tables, measurements, and basic data processing are used to keep the course close to their disciplinary context.",
+          "[b]Progressive abstraction[/b]: learners move from concrete software actions to algorithmic descriptions and simple programs."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Competencies Developed"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Work confidently in a digital environment and manage files, documents, and data responsibly.",
+          "Translate a simple scientific or administrative task into a clear sequence of operations.",
+          "Read and write elementary algorithms or programs.",
+          "Use computing as a support for scientific reasoning, not only as an office tool.",
+          "Develop the autonomy needed to continue learning digital tools beyond the classroom."
+        ]
+      }
+    }
+  ]
+}

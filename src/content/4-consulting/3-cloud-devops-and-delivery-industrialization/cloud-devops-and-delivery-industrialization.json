@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "id": "cloud-devops-and-delivery-industrialization",
+    "title": "Cloud, DevOps and Delivery Industrialization",
+    "description": "Consulting capability page on CI/CD, reproducible delivery, Docker, Kubernetes, Ansible, Helm, Jenkins, Nexus, SonarQube, release packaging, quality gates, and DevSecOps practices.",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "consulting",
+      "devops",
+      "ci-cd",
+      "kubernetes",
+      "ansible",
+      "delivery",
+      "devsecops"
+    ]
+  },
+  "header": {
+    "title": "Cloud, DevOps and Delivery Industrialization",
+    "lead": "I help teams move from heroic manual delivery to reproducible, documented, auditable and secure software release practices."
+  },
+  "body": [
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Consulting Context"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "Recent consulting work includes the technical framing and implementation of reusable delivery systems for complex product families. The evidence in my repositories goes beyond Docker and CI: it includes Ansible-based Kubernetes cluster automation, kubelet/kubeadm work, Helm installation, Jenkins pipelines that deploy to Kubernetes, multi-environment Docker Compose stacks, and service-level operational playbooks."
+      }
+    },
+    {
+      "type": "table",
+      "style": ["consulting-practice-table"],
+      "data": {
+        "compact": true,
+        "headers": ["Delivery concern", "Consulting response"],
+        "rows": [
+          ["Builds depend on specific developers' machines.", "Move build logic into pipelines, document commands, identify artifacts, and create repository readiness rules."],
+          ["Many repositories have different conventions.", "Introduce package descriptors, shared pipeline logic, naming standards, versioning rules, and acceptance criteria."],
+          ["Quality checks are optional or late.", "Integrate unit tests, integration tests, static analysis, dependency scanning, secret scanning, and release gates progressively."],
+          ["Artifacts are copied manually.", "Use artifact repositories, checksums, immutable releases, controlled promotion, and traceable publication."],
+          ["Deployment and rollback are unclear.", "Create deployment maps, backup/restore procedures, environment profiles, and operational runbooks."],
+          ["Some products target Windows and cloud at once.", "Separate orchestration concerns from platform-specific packaging through Linux-based forge services and Windows build agents where needed."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Typical Deliverables"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Delivery diagnosis and release-risk analysis.",
+          "Repository readiness checklist and standard package descriptor.",
+          "Jenkins pipeline design and implementation.",
+          "Docker Compose stacks for forge services and product environments.",
+          "Kubernetes deployment workflows, kubeconfig-managed Jenkins deployments, and Helm-oriented installation steps.",
+          "Ansible roles and playbooks for cluster preparation, middleware provisioning, and service lifecycle operations.",
+          "Nexus repository organization and artifact publication policy.",
+          "SonarQube integration and quality-gate strategy.",
+          "Windows agent packaging strategy for installers or executable deliverables.",
+          "Backup, restore, runbook, and operational documentation."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Repository Evidence"
+      }
+    },
+    {
+      "type": "card-grid",
+      "style": ["consulting-evidence-grid"],
+      "data": {
+        "cards": [
+          {
+            "title": "Kubernetes cluster setup",
+            "description": "Ansible playbooks cover package installation, swap disabling, network preparation, kubectl setup, cluster deployment, worker join, and Helm installation."
+          },
+          {
+            "title": "Jenkins Kubernetes deployment",
+            "description": "Pipeline patterns build Docker images, publish them to a registry, then deploy Kubernetes configuration through managed credentials."
+          },
+          {
+            "title": "Ansible service rollout",
+            "description": "Operational playbooks handle server-side service lifecycle: stop, replace artifact, restart, and document repeatable deployment steps."
+          },
+          {
+            "title": "Multi-stage product delivery",
+            "description": "Several product repositories include training, staging, production, demo, local and release-oriented deployment variants."
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Technology Markers"
+      }
+    },
+    {
+      "type": "table",
+      "style": ["consulting-evidence-table"],
+      "data": {
+        "compact": true,
+        "headers": ["Area", "Tools and practices"],
+        "rows": [
+          ["CI/CD", "Jenkins, GitLab CI, pipeline templates, Git workflows, build matrices, reusable jobs, acceptance gates."],
+          ["Containers and orchestration", "Docker, Docker Compose, Kubernetes, kubectl, kubeadm, Helm, registry workflows, environment profiles."],
+          ["Automation", "Ansible roles, playbooks, inventory-driven operations, Linux service lifecycle, middleware provisioning."],
+          ["Artifact management", "Nexus, Maven/npm/raw repositories, immutable releases, checksums, release catalogs, installer publication."],
+          ["Quality and security", "SonarQube, test execution, dependency and secret scanning concepts, policy gates, audit trails."],
+          ["Operations", "Backups, restore scripts, monitoring hooks, runbooks, documentation, environment hygiene."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Why It Matters"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "Delivery is governance. When release logic is undocumented, duplicated, and person-dependent, the organization carries invisible risk. A good delivery system reduces that risk by making software production repeatable, observable, reviewable, and teachable."
+      }
+    }
+  ]
+}

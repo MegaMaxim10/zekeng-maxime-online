@@ -2,25 +2,325 @@
   "meta": {
     "id": "consulting",
     "title": "Consulting",
+    "description": "A structured overview of my consulting experience in software architecture, product engineering, DevOps, Kubernetes, Ansible, Kafka, enterprise systems, and technical mentoring.",
     "language": "en",
-    "version": "1.0"
+    "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "consulting",
+      "software-architecture",
+      "product-engineering",
+      "devops",
+      "kubernetes",
+      "ansible",
+      "kafka",
+      "digital-transformation"
+    ],
+    "genSubMenus": false,
+    "genRelatedPages": true
   },
   "header": {
     "title": "Consulting",
-    "lead": "Professional consulting and collaboration engagements."
+    "lead": "I help teams turn uncertain digital needs into reliable software systems: from problem framing and architecture to implementation, delivery discipline, code quality, and team capability building."
   },
   "body": [
     {
       "type": "heading",
       "data": {
         "level": 2,
-        "text": "Consulting"
+        "text": "Consulting Snapshot"
       }
     },
     {
       "type": "paragraph",
       "data": {
-        "text": "This page is currently under construction. More content will be available soon."
+        "text": "My consulting work sits at the intersection of software engineering research, hands-on product development, university teaching, and partner-based delivery. The archive behind this page covers independent projects, product labs, collaborations with software companies, mentoring engagements, enterprise systems, health and finance-oriented platforms, event-driven integration, and cloud/DevOps industrialization work."
+      }
+    },
+    {
+      "type": "card-grid",
+      "style": ["consulting-stat-grid"],
+      "data": {
+        "cards": [
+          {
+            "title": "10+ years",
+            "description": "A long software practice trail, from early web and desktop tools to current enterprise and cloud delivery work."
+          },
+          {
+            "title": "Cloud + DevOps",
+            "description": "Docker, Jenkins, GitLab CI, Nexus, SonarQube, Kubernetes, Ansible, Helm, release packaging, and operational runbooks."
+          },
+          {
+            "title": "Event-driven systems",
+            "description": "Kafka producers/consumers, Avro serialization, Schema Registry, Kafka Connect, AKHQ, broker deployment, and integration reliability."
+          },
+          {
+            "title": "Regulated contexts",
+            "description": "Finance, health, ERP, payment, identity, reporting, document workflows, and role-based governance."
+          },
+          {
+            "title": "Partner delivery",
+            "description": "Work with product teams and software companies where architecture, implementation, and team enablement must move together."
+          }
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "style": ["consulting-note"],
+      "data": {
+        "text": "[b]Confidentiality note[/b]: this page deliberately describes capabilities, sectors, architectures, and modes of contribution. It avoids operational secrets, private client data, credentials, internal domains, and sensitive details about clients of clients."
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Partner Ecosystem"
+      }
+    },
+    {
+      "type": "card-grid",
+      "style": ["consulting-partner-grid"],
+      "data": {
+        "cards": [
+          {
+            "title": "Céthia / SmartCoders",
+            "description": "Product engineering, business platforms, cloud-ready applications, and early partner-company delivery work."
+          },
+          {
+            "title": "Dimsoft",
+            "description": "Enterprise engineering, middleware automation, Kafka work, Kubernetes/Ansible automation, and DevOps support."
+          },
+          {
+            "title": "Nafasi",
+            "description": "Regulated ERP, process automation, architecture framing, mentoring, and product governance."
+          },
+          {
+            "title": "AdvanceIT",
+            "description": "DevOps industrialization for ERP, health-information, mobile, and modular enterprise product families."
+          },
+          {
+            "title": "KimboCare",
+            "description": "Health-platform engineering, multi-environment delivery, service APIs, Docker/Jenkins pipelines, and operational packaging."
+          },
+          {
+            "title": "MIUniverse",
+            "description": "Research-to-product experimentation, reusable tools, software generators, and portfolio-grade engineering assets."
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Experience Map"
+      }
+    },
+    {
+      "type": "timeline",
+      "style": ["consulting-timeline"],
+      "data": {
+        "items": [
+          {
+            "period": "2013-2017",
+            "title": "Early independent software and web projects",
+            "description": "Small business tools, content websites, management systems, e-commerce experiments, desktop utilities, and practical support to local organizations."
+          },
+          {
+            "period": "2018-2021",
+            "title": "Product experiments and reusable technical assets",
+            "description": "MIUniverse tools and libraries, JavaScript/CSS components, mathematical and multimedia utilities, documentation templates, and process-oriented software ideas."
+          },
+          {
+            "period": "2021-2024",
+            "title": "Partner-company engineering and enterprise platforms",
+            "description": "Collaborations involving .NET, Java/Spring, Angular, Vue, cloud-oriented APIs, e-invoicing, ERP, finance, Kafka integration, testing, and deployment preparation."
+          },
+          {
+            "period": "2024-2026",
+            "title": "Health, regulated systems and modular business platforms",
+            "description": "Work around health-service platforms, regulated ERP, identity, billing, document management, notifications, reporting, modular backends, admin frontends, and multi-environment delivery."
+          },
+          {
+            "period": "2026+",
+            "title": "DevSecOps and delivery industrialization",
+            "description": "Technical framing and implementation of reproducible delivery for complex product families: CI/CD, Docker, Kubernetes, Ansible, artifacts, quality gates, packaging, release traceability, backups, and operational documentation."
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Capability Areas"
+      }
+    },
+    {
+      "type": "card-grid",
+      "style": ["consulting-capability-grid"],
+      "data": {
+        "cards": [
+          {
+            "title": "Software Architecture and Product Engineering",
+            "description": "Architecture decisions, modular design, domain modeling, maintainable implementation, technical strategy, and product-level engineering judgment.",
+            "link": "4-consulting/1-software-architecture-and-product-engineering/software-architecture-and-product-engineering.html",
+            "linkLabel": "Explore this capability"
+          },
+          {
+            "title": "Business Platforms, Web and Mobile Applications",
+            "description": "Admin systems, public portals, APIs, mobile applications, dashboards, business workflows, frontend/backend integration, and delivery-ready products.",
+            "link": "4-consulting/2-business-platforms-web-and-mobile/business-platforms-web-and-mobile.html",
+            "linkLabel": "Explore this capability"
+          },
+          {
+            "title": "Cloud, DevOps and Delivery Industrialization",
+            "description": "CI/CD, Docker, Kubernetes, Ansible, Helm, artifact repositories, code-quality gates, release packaging, backups, and deployment workflows.",
+            "link": "4-consulting/3-cloud-devops-and-delivery-industrialization/cloud-devops-and-delivery-industrialization.html",
+            "linkLabel": "Explore this capability"
+          },
+          {
+            "title": "Enterprise Systems, Data and Process Automation",
+            "description": "ERP modules, identity, billing, document workflows, reporting, API gateways, data integration, XML transformation, Kafka-based messaging, and process automation.",
+            "link": "4-consulting/4-enterprise-systems-data-and-process-automation/enterprise-systems-data-and-process-automation.html",
+            "linkLabel": "Explore this capability"
+          },
+          {
+            "title": "Technical Mentoring and Team Enablement",
+            "description": "Developer mentoring, code review, training, project coaching, onboarding documentation, engineering rituals, and practical guidance for junior and intermediate teams.",
+            "link": "4-consulting/5-technical-mentoring-and-team-enablement/technical-mentoring-and-team-enablement.html",
+            "linkLabel": "Explore this capability"
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Infrastructure Evidence"
+      }
+    },
+    {
+      "type": "card-grid",
+      "style": ["consulting-evidence-grid"],
+      "data": {
+        "cards": [
+          {
+            "title": "Kubernetes automation",
+            "description": "Ansible-based cluster setup: packages, swap/network preparation, kubectl, kubeadm deployment, worker join flow, and Helm installation."
+          },
+          {
+            "title": "Jenkins to Kubernetes",
+            "description": "Pipelines that build backend/frontend/tool images, push them to registries, and deploy Kubernetes manifests through managed kubeconfig."
+          },
+          {
+            "title": "Ansible operations",
+            "description": "Playbooks and roles for Linux service lifecycle, middleware provisioning, deployment steps, and repeatable server-side operations."
+          },
+          {
+            "title": "Kafka platform work",
+            "description": "Spring Kafka producers/consumers, Avro serialization, Schema Registry, Kafka Connect, AKHQ, Zookeeper, broker roles, and packaging concerns."
+          },
+          {
+            "title": "Multi-environment delivery",
+            "description": "Training, staging, production, local/demo profiles, Docker Compose stacks, Jenkinsfiles, and controlled configuration preparation."
+          },
+          {
+            "title": "Quality forge",
+            "description": "Jenkins, Nexus, SonarQube, test execution, artifact publication, traceability, backup/restore, and delivery documentation."
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "How I Intervene"
+      }
+    },
+    {
+      "type": "table",
+      "style": ["consulting-modes-table"],
+      "data": {
+        "compact": true,
+        "headers": ["Mode", "What I usually bring", "Useful when"],
+        "rows": [
+          ["Technical diagnosis", "A structured reading of the system, risks, delivery process, codebase, architecture, and team constraints.", "A project is blocked, fragile, hard to deploy, hard to test, or hard to explain."],
+          ["Architecture and framing", "Domain maps, target architecture, decomposition strategy, technology choices, trade-off analysis, and implementation roadmap.", "A team needs to start, modernize, split, stabilize, or scale a software product."],
+          ["Hands-on engineering", "Backend, frontend, API, mobile, testing, documentation, migration, integration, and release work.", "The project needs senior implementation capacity with architectural continuity."],
+          ["Delivery industrialization", "CI/CD pipelines, artifact management, quality gates, environment discipline, packaging, backup, and release traceability.", "Manual delivery has become too risky, slow, person-dependent, or difficult to audit."],
+          ["Training and mentoring", "Code review, workshops, pair debugging, architecture clinics, learning paths, and standards that teams can actually use.", "A team must grow in autonomy while still shipping real work."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Sectors and Problem Spaces"
+      }
+    },
+    {
+      "type": "table",
+      "style": ["consulting-evidence-table"],
+      "data": {
+        "compact": true,
+        "headers": ["Problem space", "Representative contribution", "Public-safe description"],
+        "rows": [
+          ["Financial and regulated platforms", "Architecture, modular backend design, admin frontends, identity, billing, reporting, and compliance-oriented workflows.", "Work around systems where auditability, traceability, data integrity, and role-based access matter."],
+          ["Health and service platforms", "Multi-application ecosystems, service APIs, authentication, notifications, payments, storage, and Angular clients.", "Experience with platforms that coordinate users, service providers, benefits, documents, and operational workflows."],
+          ["ERP and business management", "Domain decomposition, product modules, accounting/asset/payroll/mobile components, release packaging, and deployment discipline.", "Support for teams maintaining broad product families with many repositories and heterogeneous outputs."],
+          ["Education and mentoring", "Frontend, React, web development, testing, debugging, code review, and developer confidence-building.", "Professional mentoring and teaching habits applied to real projects and learning journeys."],
+          ["Research-to-product engineering", "Workflow modeling, service orientation, reusable generators, process runtimes, documentation templates, and scientific utilities.", "Transfer of academic software engineering ideas into practical tools and product prototypes."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Technical Ecosystem"
+      }
+    },
+    {
+      "type": "card-grid",
+      "style": ["consulting-tech-grid"],
+      "data": {
+        "cards": [
+          {
+            "title": "Backend",
+            "description": "Java, Spring Boot, Maven, PHP/Laravel, .NET, Node.js, REST APIs, modular monoliths, microservices, gateways, identity modules, and DDD."
+          },
+          {
+            "title": "Frontend and mobile",
+            "description": "Angular, React, Vue, Vite, Tailwind, Android, Flutter-oriented repositories, admin dashboards, public portals, and client applications."
+          },
+          {
+            "title": "Data and integration",
+            "description": "PostgreSQL, SQL Server, MongoDB, MySQL, Liquibase, XML/JAXB, Kafka, Avro, Schema Registry, Kafka Connect, reporting, and migration."
+          },
+          {
+            "title": "Cloud and quality",
+            "description": "Docker, Docker Compose, Kubernetes, kubectl, kubeadm, Helm, Ansible, Jenkins, GitLab CI, Nexus, SonarQube, JUnit, Jest, Pest, and JaCoCo."
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "My Consulting Bias"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "I do not see consulting as advice detached from implementation. My strongest contributions happen when I can connect diagnosis, modeling, code, tests, delivery, documentation, and people. The goal is not only to ship a feature or install a tool, but to leave behind a system that the team can understand, extend, operate, and teach to the next person."
       }
     }
   ]

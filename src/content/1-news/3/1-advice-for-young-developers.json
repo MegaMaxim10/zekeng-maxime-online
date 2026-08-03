@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "id": "advice-for-young-developers",
+    "title": "Advice I Often Give to Young Developers",
+    "description": "A short mentoring note for young developers: understand before coding, plan before executing, deliver in useful increments, communicate early, and use AI as an accelerator rather than a substitute for judgment.",
+    "image": "assets/images/activities/dev-advices-08-2026/Picture-with-some-of-my-students.jpeg",
+    "language": "en",
+    "version": "1.0",
+    "status": "published",
+    "slugFromTitle": true,
+    "publishedTime": "2026-08-02T10:00:00+01:00",
+    "lastUpdated": "2026-08-02",
+    "tags": [
+      "mentoring",
+      "software-engineering",
+      "developers",
+      "artificial-intelligence",
+      "teaching",
+      "productivity"
+    ]
+  },
+  "header": {
+    "title": "Advice I Often Give to Young Developers",
+    "lead": "A young developer I work with recently asked me how to become more effective in this job. His question reminded me of many similar conversations with students, collaborators, and early-career engineers. This note preserves the core advice I gave him.",
+    "image": {
+      "src": "assets/images/activities/dev-advices-08-2026/Picture-with-some-of-my-students.jpeg",
+      "alt": "Group photo with some of my students at the University of Dschang"
+    }
+  },
+  "body": [
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Why This Note"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "There are questions that return so often that they become part of one's teaching and mentoring life. [i]How can I become better at this job? How can I deliver features faster? How do I use AI without becoming dependent on it? How do I stay reliable when deadlines, clients, code quality, and uncertainty all collide?[/i]"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "A few weeks ago, a young developer with whom I work asked me a version of that question. I answered him through a series of voice notes. When I listened back to the discussion, I realized that the advice was not only for him. It was the same set of principles I often share with my students and collaborators: simple, practical ideas that help a developer become more trustworthy, more autonomous, and more useful in real projects."
+      }
+    },
+    {
+      "type": "media-image",
+      "data": {
+        "src": "src/assets/images/activities/dev-advices-08-2026/Picture-at-a-research-meeting-with-Dr-Tonle-Noumbo-Franck-and-Pr-Tchoupe-Tchendji-Maurice.jpeg",
+        "alt": "Working meeting with colleagues around a laptop and a whiteboard",
+        "legend": "Mentoring and software work often happen in ordinary moments: around a laptop, a whiteboard, a concrete problem, and a shared attempt to clarify the next step.",
+        "zoom": true
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "The Central Idea"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "My central point is this: [b]a developer's effectiveness does not come first from tools, frameworks, or even artificial intelligence[/b]. It comes from two deeper habits: a healthy mindset and a disciplined way of organizing work. AI becomes powerful when it amplifies a clear intention, a well-framed problem, and a thoughtful execution plan. If the intention is confused, AI mainly helps produce confusion faster."
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "This is why I do not reduce professional growth to learning more commands, installing more extensions, or chasing every new technology. Those things can help, but they are secondary. The more fundamental question is whether people can trust your trajectory: what you accepted, how you planned it, how you reasoned about it, how you communicated when things changed, and what you finally delivered."
+      }
+    },
+    {
+      "type": "table",
+      "data": {
+        "compact": true,
+        "headers": ["Principle", "Practical meaning"],
+        "rows": [
+          ["Be honest before accepting work", "Know your rhythm, your constraints, and the real effort required."],
+          ["Plan before execution", "Decide when and how you will work before sitting down to code."],
+          ["Think before coding", "Clarify the need, the rules, the edge cases, and the definition of done."],
+          ["Use AI deliberately", "Give context, constraints, examples, and a plan before asking for code."],
+          ["Deliver in increments", "Ship the smallest useful version, then improve without losing readability."],
+          ["Communicate early", "Signal blockers, limits, trade-offs, and changes in direction before trust is damaged."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 3,
+        "text": "1. Do Not Accept More Than You Can Really Do"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "The first professional skill is honesty. Before saying yes to a task, a developer should ask: [i]Can I really do this in the requested time? Under what conditions can I work well? What usually slows me down? What should I say clearly from the beginning?[/i] Reliability starts before the first line of code."
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "Saying early [i]I can do it[/i], [i]I cannot do it[/i], or [i]I can do it, but not within that deadline[/i] is not weakness. It is a sign of maturity. Many professional problems are not caused by technical failure alone; they come from vague commitments that nobody dared to clarify in time."
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 3,
+        "text": "2. Think Before Coding"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "When I enter a project or take a ticket, I first try to understand the basic definitions. This is probably my mathematician's reflex: if you do not know the axioms, you cannot reason properly. What are we trying to build? How should it behave? Which rules are mandatory? Which cases are exceptions? What will make us say that the task is finished?"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "Thinking can feel slow because nothing visible is being produced yet. But in software, unclear thinking is expensive. It often leads to empirical coding, confused refactoring, and avoidable frustration. Time spent understanding the problem usually reduces the total time required to deliver the solution."
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 3,
+        "text": "3. Use AI as an Accelerator, Not as a Pilot"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "AI tools can save a lot of time, but they work best when the developer already knows what they want. Before asking an AI system to produce code, documentation, tests, or a refactor, give it context, the expected result, the constraints, the preferred output format, the steps of the plan, and examples or edge cases."
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "The model matters less than the clarity of the design. A good prompt cannot replace judgment; it expresses judgment. This is the difference between delegating execution and outsourcing thinking. A young developer should learn to use AI to generate, compare, test, document, and accelerate, but not to avoid understanding."
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 3,
+        "text": "4. Deliver in Useful Increments"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "Real projects require balance: deadline, quality, and the needs of the person or organization in front of you. Sometimes the right decision is not to build the perfect architecture immediately. It may be better to deliver a readable first version that creates value, then improve the structure afterward."
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "Incremental delivery does not mean careless work. It means choosing the right level of quality at the right time. Readability should remain non-negotiable, because today's temporary code often becomes tomorrow's foundation. But a useful version delivered in time can create trust, feedback, and momentum."
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 3,
+        "text": "5. Avoid Tool Obsession and Overengineering"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "A developer does not need to become an expert in every tool or every possible configuration. Keep your environment simple. Learn advanced setups when they answer a real problem, not because they look sophisticated. The same applies to architecture: do not build today every feature that might perhaps be useful tomorrow."
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "I often use a simple image: if you are building a hotel and the clients do not yet need a swimming pool, do not begin by building the pool. Keep in mind that it may become useful later, and leave room for evolution, but do not pay the full cost too early."
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 3,
+        "text": "6. Communicate Before Trust Breaks"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "Delays, errors, and failures happen. What damages trust most is not always the failure itself; it is the fog around the failure. When something cannot be done, say it early, explain why, propose an alternative if possible, and accept the consequences without turning every disagreement into a personal conflict."
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "A reliable developer is not someone who succeeds at everything. A reliable developer is someone whose decisions can be understood. People can work with you when your path is visible: what you tried, what changed, what remains possible, and what you recommend next."
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "A Practical Checklist for Young Developers"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "[b]Before starting[/b]: reformulate the need in one sentence, list the business rules and edge cases, estimate the time, and define the smallest useful increment.",
+          "[b]During the work[/b]: understand before coding, use AI to support your plan, keep the code readable, and check regularly whether the deadline and quality level still make sense.",
+          "[b]After delivery[/b]: note what slowed you down, identify what could be automated next time, refactor what will serve future work, and turn the experience into a working rule."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "If I had to compress everything into one formula, it would be this: [b]understand before coding; plan before executing; deliver small but useful; remain readable; communicate early; use AI as an accelerator, not as the pilot.[/b]"
+      }
+    },
+    {
+      "type": "image-gallery",
+      "data": {
+        "title": "Mentoring and Learning Contexts",
+        "layout": "photo",
+        "zoom": true,
+        "carousel": true,
+        "images": [
+          {
+            "src": "src/assets/images/activities/dev-advices-08-2026/Picture-with-some-of-my-students.jpeg",
+            "alt": "Group photo with some of my students at the University of Dschang",
+            "caption": "Many of these reflections come from repeated conversations with students and young developers."
+          },
+          {
+            "src": "src/assets/images/activities/dev-advices-08-2026/Picture-at-a-research-meeting-with-Dr-Tonle-Noumbo-Franck-and-Pr-Tchoupe-Tchendji-Maurice.jpeg",
+            "alt": "Working meeting with colleagues around a laptop and a whiteboard",
+            "caption": "Software practice grows through discussion, planning, feedback, and concrete problem solving."
+          }
+        ]
+      }
+    }
+  ]
+}

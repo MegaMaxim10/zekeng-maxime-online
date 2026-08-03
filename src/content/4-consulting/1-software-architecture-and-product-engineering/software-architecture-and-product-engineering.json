@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "id": "software-architecture-and-product-engineering",
+    "title": "Software Architecture and Product Engineering",
+    "description": "Consulting capability page on software architecture, product engineering, modular systems, domain modeling, and maintainable implementation.",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "consulting",
+      "software-architecture",
+      "product-engineering",
+      "domain-driven-design"
+    ]
+  },
+  "header": {
+    "title": "Software Architecture and Product Engineering",
+    "lead": "I help teams design and build software systems that can survive real use: changing requirements, growing teams, operational pressure, and the long memory of code."
+  },
+  "body": [
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Consulting Context"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "This capability comes from a double practice: academic work in software engineering and hands-on involvement in real products. I have worked around modular monoliths, microservice ecosystems, gateways, identity modules, document workflows, process-oriented application generation, mobile backends, and business platforms where maintainability matters as much as the first delivery."
+      }
+    },
+    {
+      "type": "table",
+      "style": ["consulting-practice-table"],
+      "data": {
+        "compact": true,
+        "headers": ["Client situation", "My contribution"],
+        "rows": [
+          ["The product is growing faster than its architecture.", "Clarify bounded contexts, identify modules, define dependency rules, and separate domain, application, infrastructure, and presentation concerns."],
+          ["A team must modernize without stopping delivery.", "Propose incremental migration paths, preserve working behavior, reduce risky rewrites, and create technical milestones that can be verified."],
+          ["The system is hard to explain to new developers.", "Produce architecture maps, module descriptions, onboarding documentation, code conventions, and examples of expected implementation style."],
+          ["A product idea needs to become buildable.", "Translate business goals into use cases, APIs, data models, screens, workflows, and a technical roadmap."],
+          ["Quality is treated too late.", "Introduce testing strategy, review discipline, traceability, refactoring habits, and release criteria from the design stage."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Typical Deliverables"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Architecture diagnosis and risk map.",
+          "Target architecture and migration roadmap.",
+          "Domain model, module map, and dependency rules.",
+          "API contracts, technical specifications, and implementation guidelines.",
+          "Prototype or reference implementation for a sensitive module.",
+          "Testing strategy, quality gates, and release-readiness checklist.",
+          "Developer documentation and onboarding notes."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Engineering Principles"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "[b]Architecture should explain the business[/b]: modules must reflect real responsibilities, not only technical layers.",
+          "[b]A system should be easy to change in the expected directions[/b]: design is judged by future work, not only by today's elegance.",
+          "[b]Trade-offs must be explicit[/b]: performance, cost, maintainability, security, delivery speed, and team skill are all part of the architecture.",
+          "[b]Code is a social artifact[/b]: naming, structure, tests, and documentation determine how a team thinks together.",
+          "[b]Research matters when it becomes practical[/b]: workflow modeling, process execution, service orientation, and formal reasoning are useful when they clarify the product."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Technical Markers"
+      }
+    },
+    {
+      "type": "table",
+      "style": ["consulting-evidence-table"],
+      "data": {
+        "compact": true,
+        "headers": ["Area", "Representative technologies and practices"],
+        "rows": [
+          ["Architecture", "Domain-driven design, hexagonal architecture, modular monoliths, microservices, API gateways, service-oriented systems, BPMN/process modeling."],
+          ["Backend", "Java/Spring Boot, Maven, Liquibase, PHP/Laravel, .NET, Node.js, REST APIs, identity, notification, document, billing, and reporting modules."],
+          ["Quality", "JUnit, Cucumber, JaCoCo, Jest, Pest, code review, refactoring, test-support modules, integration tests, release gates."],
+          ["Documentation", "Architecture notes, system maps, runbooks, README standards, onboarding material, technical decision records."]
+        ]
+      }
+    }
+  ]
+}

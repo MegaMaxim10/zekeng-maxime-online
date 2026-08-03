@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "id": "web-mobile-and-application-development",
+    "title": "Web, Mobile and Application Development",
+    "description": "Courses on dynamic web programming, client-server applications, mobile development, APIs, frontend/backend integration, and applied project delivery.",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "teaching",
+      "web-development",
+      "mobile-development",
+      "client-server",
+      "application-development"
+    ]
+  },
+  "header": {
+    "title": "Web, Mobile and Application Development",
+    "lead": "These courses help students move from programming exercises to usable applications: web interfaces, server-side logic, APIs, mobile features, data persistence, and user-oriented delivery."
+  },
+  "body": [
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Course Context"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "This family brings together dynamic web programming, HTML/CSS/JavaScript practice, PHP and server-side development, XML and web programming, client-server applications, API development, mobile development, and project-oriented application work."
+      }
+    },
+    {
+      "type": "table",
+      "style": ["teaching-record-table"],
+      "data": {
+        "caption": "Teaching record",
+        "compact": true,
+        "headers": ["Years", "Role", "Institution", "Track / level", "Courses documented"],
+        "rows": [
+          ["2013-2021", "Teaching assistant / monitor", "University of Dschang, Department of Mathematics and Computer Science", "Mathematics and Computer Science, L2, and Computer Science, L2 practical groups", "HTML, PHP, AJAX and Dynamic Web Programming tutorials"],
+          ["2022-2024", "Visiting lecturer / course instructor", "Douala Institute of Technology (DIT)", "M1 and computing-oriented cohorts", "Client-Server Development, XML and Web Programming, application development"],
+          ["2022-2026", "Visiting lecturer / course instructor", "University of the Mountains (UdM)", "Engineering and technology tracks", "Web Development and project-based application delivery"],
+          ["2022-2026", "Course lecturer / instructor", "University of Dschang, Master ISOC", "M1-M2 professional master activities", "Mobile application modeling, Ionic/Angular/React practice, API-backed applications and connected-service projects"],
+          ["2024-2026", "Course lecturer / instructor", "University of Dschang, Master Governance / security-oriented program", "Master-level professional cohort", "Secure Web Programming"],
+          ["2024-2026", "Visiting lecturer / course instructor", "Adventist University Cosendai", "Bachelor-level Computer Science / Software Engineering", "Mobile Development, Python-backed application projects and implementation practice"]
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "data": {
+        "compact": true,
+        "headers": ["Representative labels", "Teaching focus"],
+        "rows": [
+          ["Dynamic Web Programming", "HTML, CSS, JavaScript, forms, sessions, server-side logic, and database-backed pages."],
+          ["Client-Server Applications", "Separation of clients, servers, communication protocols, and application responsibilities."],
+          ["API and Integration Programming", "REST APIs, endpoints, request/response formats, documentation, and integration tests."],
+          ["Mobile Development", "Mobile UI, state, navigation, local data, remote services, and practical app delivery."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Main Notions"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Web fundamentals: HTML structure, CSS styling, JavaScript interaction, forms, navigation, and accessibility basics.",
+          "Server-side programming, sessions, authentication ideas, database access, validation, and secure handling of input.",
+          "Client-server architecture, APIs, JSON/XML data exchange, routing, and integration between components.",
+          "Mobile application structure: screens, navigation, user input, storage, and service consumption.",
+          "Project delivery: requirements, implementation plan, testing, documentation, and presentation."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "How the Course Runs"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "The course is naturally practical. Students build small interfaces, connect them to data, implement server-side behavior, and progressively assemble complete mini-applications. The objective is to help them understand the full path from user action to application response."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "[b]Build and inspect[/b]: students see how browser, server, database, and network exchanges fit together.",
+          "[b]Project increments[/b]: assignments are often structured around visible deliverables rather than isolated snippets.",
+          "[b]User-aware implementation[/b]: learners are encouraged to think about validation, errors, navigation, and maintainability."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Competencies Developed"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Design and implement a small web or mobile application.",
+          "Connect user interfaces to application logic and data.",
+          "Understand the responsibilities of clients, servers, APIs, and databases.",
+          "Document and present application behavior.",
+          "Deliver usable software in iterative steps."
+        ]
+      }
+    }
+  ]
+}

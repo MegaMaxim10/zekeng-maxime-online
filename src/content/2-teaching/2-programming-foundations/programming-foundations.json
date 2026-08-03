@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "id": "programming-foundations",
+    "title": "Algorithmics, Data Structures and Programming Foundations",
+    "description": "Courses on algorithmic thinking, introductory programming, data structures, and the foundations needed to design correct, readable, and efficient programs.",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "teaching",
+      "algorithms",
+      "data-structures",
+      "programming"
+    ]
+  },
+  "header": {
+    "title": "Algorithmics, Data Structures and Programming Foundations",
+    "lead": "This course family builds the core mental habits of programming: decomposing a problem, designing an algorithm, representing data, and implementing a solution that can be tested, explained, and improved."
+  },
+  "body": [
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Course Context"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "These courses form the bridge between general digital literacy and genuine computer science. They appear under labels such as algorithmics, introduction to programming, Informatique I for Chemistry L1, language and programming, algorithms and data structures, and practical programming modules. The common thread is the move from intuitive problem solving to disciplined program construction."
+      }
+    },
+    {
+      "type": "table",
+      "style": ["teaching-record-table"],
+      "data": {
+        "caption": "Teaching record",
+        "compact": true,
+        "headers": ["Years", "Role", "Institution", "Track / level", "Courses documented"],
+        "rows": [
+          ["2022-2026", "Course lecturer / main instructor", "University of Dschang, Faculty of Science", "Physics, L1", "Algorithmics and Introduction to Programming / PHY142"],
+          ["2023-2026", "Course lecturer / main instructor", "University of Dschang, Faculty of Science", "Renewable Energy, L1", "Algorithmics / ENR1102 and Language, Programming and Practical Work / ENR1112"],
+          ["2022-2025", "Course lecturer / main instructor", "University of Dschang, Faculty of Science", "Chemistry, L1", "Informatique I, an introductory algorithmics course close to the Physics and Renewable Energy versions"],
+          ["2023-2026", "Course lecturer / main instructor", "University of Dschang, Faculty of Science", "Computer Science, L2", "Algorithms and Data Structures"],
+          ["2017-2022", "Teaching assistant / monitor", "University of Dschang, Department of Mathematics and Computer Science", "Mathematics and Computer Science, L2, and Computer Science, L2 practical groups", "Algorithmics, C programming and data-structure tutorials"]
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "data": {
+        "compact": true,
+        "headers": ["Representative labels", "Teaching focus"],
+        "rows": [
+          ["Algorithmics and Introduction to Programming", "Problem decomposition, control structures, functions, arrays, and elementary algorithms."],
+          ["Informatique I for Chemistry L1", "A Chemistry-track version of introductory algorithmics, closely aligned with Physics L1 and Renewable Energy L1 foundations."],
+          ["Language and Programming", "Programming syntax, execution model, debugging, and structured implementation."],
+          ["Algorithms and Data Structures", "Lists, stacks, queues, trees, searching, sorting, and complexity intuition."],
+          ["Practical Tutorials and Labs", "Exercises, correction sessions, implementation drills, and exam preparation."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Main Notions"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Variables, expressions, conditions, loops, functions, arrays, strings, and records.",
+          "Algorithm design strategies: decomposition, iteration, recursion, invariants, and stepwise refinement.",
+          "Data structures: sequential structures, linked structures, stacks, queues, trees, and graphs when appropriate.",
+          "Searching, sorting, traversal, and elementary complexity analysis.",
+          "Testing, debugging, trace tables, and explanation of program behavior."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "How the Course Runs"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "The course is deliberately exercise-driven. Students learn by solving many small problems, comparing possible algorithms, and debugging their own reasoning. Written algorithmic descriptions and executable programs are both important: one trains clarity, the other tests whether the idea actually works."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "[b]From examples to patterns[/b]: students begin with concrete exercises and gradually identify reusable patterns.",
+          "[b]From algorithm to code[/b]: emphasis is placed on preserving the logic of the solution when moving into a programming language.",
+          "[b]From correctness to quality[/b]: students are pushed to make solutions readable, testable, and justifiable."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Competencies Developed"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Design an algorithm before rushing into code.",
+          "Choose a suitable data representation for a problem.",
+          "Implement common structures and operations correctly.",
+          "Analyze simple performance trade-offs.",
+          "Explain, test, and improve a program systematically."
+        ]
+      }
+    }
+  ]
+}

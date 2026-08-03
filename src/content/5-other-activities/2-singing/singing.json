@@ -1,27 +1,189 @@
 {
   "meta": {
     "id": "singing",
-    "title": "Singing",
+    "title": "Music and Performance",
+    "description": "Music, lyrics videos, freestyles, SoundCloud tracks, and the Max Zekill artistic identity.",
     "language": "en",
     "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "music",
+      "singing",
+      "rap",
+      "performance",
+      "max-zekill"
+    ],
     "genSubMenus": false
   },
   "header": {
-    "title": "Singing",
-    "lead": "Music-related projects and performances."
+    "title": "Music and Performance",
+    "lead": "Under the artistic name Max Zekill, I explore music as another form of writing: rhythm, voice, social commentary, vulnerability, and public expression."
   },
   "body": [
     {
       "type": "heading",
       "data": {
         "level": 2,
-        "text": "Singing"
+        "text": "Max Zekill"
       }
     },
     {
       "type": "paragraph",
       "data": {
-        "text": "This page is currently under construction. More content will be available soon."
+        "text": "The Max Zekill identity connects poetry, rap, sung text, lyric videos, freestyles, and public releases. Some works are intimate, some are socially charged, and some simply preserve the joy of making words move with sound. The public archive is distributed mainly across YouTube and SoundCloud."
+      }
+    },
+    {
+      "type": "card-grid",
+      "style": ["other-stat-grid"],
+      "data": {
+        "cards": [
+          {
+            "title": "Max Zekill TV",
+            "description": "A YouTube channel active since 2017 with music videos, lyric videos, shorts, and outreach content."
+          },
+          {
+            "title": "27 tracks",
+            "description": "The public SoundCloud profile lists 27 tracks and 3 playlists."
+          },
+          {
+            "title": "2020-2025",
+            "description": "The YouTube feed preserves releases from the Meurtri period through newer tracks and shorts."
+          },
+          {
+            "title": "Voice + text",
+            "description": "A creative practice rooted in lyrics, storytelling, critique, tenderness, and spoken energy."
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Featured Videos"
+      }
+    },
+    {
+      "type": "embed",
+      "style": ["other-feature-embed"],
+      "data": {
+        "kind": "iframe",
+        "src": "https://www.youtube.com/embed/2w28hOLawpE",
+        "title": "Max Zekill - Only God knows",
+        "caption": "Max Zekill - Only God knows, published on Max Zekill TV in 2024.",
+        "ratio": "16 / 9"
+      }
+    },
+    {
+      "type": "embed",
+      "style": ["other-feature-embed"],
+      "data": {
+        "kind": "iframe",
+        "src": "https://www.youtube.com/embed/fp35il330LY",
+        "title": "Max Zekill - A l'amour de ma vie (#EAM part 3)",
+        "caption": "Max Zekill - A l'amour de ma vie, a personal music video centered on love, memory, and intimate address.",
+        "ratio": "16 / 9"
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "SoundCloud Player"
+      }
+    },
+    {
+      "type": "embed",
+      "style": ["other-soundcloud-embed"],
+      "data": {
+        "kind": "iframe",
+        "src": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fmilliam-maxime-zekeng-ndadji&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+        "title": "Max Zekill on SoundCloud",
+        "caption": "SoundCloud profile player for Max Zekill.",
+        "ratio": "4 / 3"
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Selected YouTube Archive"
+      }
+    },
+    {
+      "type": "table",
+      "style": ["other-works-table"],
+      "data": {
+        "compact": true,
+        "headers": ["Work", "Published", "Format"],
+        "rows": [
+          ["[Nouveau super clip de Mama Yemba](https://www.youtube.com/shorts/Tdqfxoubh-s)", "20 Jan 2025", "Short"],
+          ["[Max Zekill - Only God knows](https://www.youtube.com/watch?v=2w28hOLawpE)", "4 May 2024", "Music video"],
+          ["[Max Zekill - A l'amour de ma vie (#EAM part 3)](https://www.youtube.com/watch?v=fp35il330LY)", "24 Feb 2020", "Music video"],
+          ["[Max Zekill - Droit de Réponse (freestyle)](https://www.youtube.com/watch?v=gE1JWAqcOxM)", "26 Sep 2020", "Freestyle"],
+          ["[Max Zekill - T'aurais pu](https://www.youtube.com/watch?v=CK1NbZx8mPs)", "3 Aug 2020", "Music"],
+          ["[Max Zekill - Geek - Rappeur - CTO](https://www.youtube.com/watch?v=Ofv-9flKc90)", "3 Aug 2020", "Music"],
+          ["[Max Zekill - Mon epoque](https://www.youtube.com/watch?v=gmIrMctzDYE)", "3 Aug 2020", "Music"],
+          ["[Max Zekill - A l'amour de ma vie](https://www.youtube.com/watch?v=qhpMp_CYibg)", "3 Aug 2020", "Music"]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Creative Position"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "I do not present music here as a claim of celebrity. I present it as a trace of authorship and courage: the decision to speak, to perform, to publish, to accept imperfection, and to let a part of one's inner world meet an audience."
+      }
+    },
+    {
+      "type": "link-groups",
+      "style": ["other-links"],
+      "data": {
+        "title": "Listen and Watch",
+        "columns": 2,
+        "groups": [
+          {
+            "title": "Video",
+            "links": [
+              {
+                "label": "Max Zekill TV",
+                "url": "https://www.youtube.com/@maxzekilltv",
+                "external": true,
+                "icon": "link"
+              },
+              {
+                "label": "YouTube channel feed",
+                "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSpYkuH70ltGHUZr2V6m-ew",
+                "external": true,
+                "icon": "link"
+              }
+            ]
+          },
+          {
+            "title": "Audio",
+            "links": [
+              {
+                "label": "Max Zekill on SoundCloud",
+                "url": "https://soundcloud.com/milliam-maxime-zekeng-ndadji",
+                "external": true,
+                "icon": "link"
+              },
+              {
+                "label": "SoundCloud search for Max Zekill",
+                "url": "https://soundcloud.com/search?q=Max%20Zekill",
+                "external": true,
+                "icon": "link"
+              }
+            ]
+          }
+        ]
       }
     }
   ]

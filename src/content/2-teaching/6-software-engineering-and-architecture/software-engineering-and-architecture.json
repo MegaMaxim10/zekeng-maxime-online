@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "id": "software-engineering-and-architecture",
+    "title": "Software Engineering, Architecture and Design",
+    "description": "Courses on software engineering, requirements, UML, architecture, design patterns, quality, testing, refactoring, BPMN, maintainability, and software evolution.",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "teaching",
+      "software-engineering",
+      "software-architecture",
+      "design-patterns",
+      "quality"
+    ]
+  },
+  "header": {
+    "title": "Software Engineering, Architecture and Design",
+    "lead": "This course family is about building software that remains understandable, maintainable, evolvable, and useful beyond the first working version."
+  },
+  "body": [
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Course Context"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "This family includes introductory software engineering, advanced software engineering, software architecture, advanced object-oriented modeling, design patterns, quality engineering, testing, refactoring, BPMN, and process automation. It is one of the central axes of my teaching because it connects theory, practice, modeling, teamwork, and professional judgment."
+      }
+    },
+    {
+      "type": "table",
+      "style": ["teaching-record-table"],
+      "data": {
+        "caption": "Teaching record",
+        "compact": true,
+        "headers": ["Years", "Role", "Institution", "Track / level", "Courses documented"],
+        "rows": [
+          ["2022-2026", "Course lecturer / main instructor", "University of Dschang, Faculty of Science", "Computer Science, L2", "Introduction to Software Engineering"],
+          ["2024-2026", "Course lecturer / main instructor", "University of Dschang, Faculty of Science", "Computer Science, M1", "Advanced Software Engineering"],
+          ["2017-2021", "Teaching assistant / monitor", "University of Dschang, Department of Mathematics and Computer Science", "Computer Science, L1 practical groups", "Software Engineering tutorials and assessment support"],
+          ["2022-2023", "Visiting lecturer / course instructor", "Douala Institute of Technology (DIT)", "L3 engineering cohort", "Software Engineering"],
+          ["2021-2026", "Visiting lecturer / course instructor", "University of the Mountains (UdM)", "Engineering and technology tracks", "Software Architecture, Advanced Software Architecture and Design, Service Engineering, OOP Modeling, Design Patterns and Quality Engineering"],
+          ["2024-2026", "Visiting lecturer / course instructor", "Adventist University Cosendai", "Bachelor-level Computer Science / Software Engineering", "Software Engineering, OOP and project structuring"],
+          ["2026-2027 materials", "Course lecturer / prepared teaching material", "University of Bamenda, College of Technology", "Software Engineering / technology-oriented engineering training", "Software Engineering, requirements, object-oriented modeling and architecture patterns"]
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "data": {
+        "compact": true,
+        "headers": ["Representative labels", "Teaching focus"],
+        "rows": [
+          ["Introduction to Software Engineering", "Lifecycle, requirements, UML, documentation, teamwork, and project organization."],
+          ["Advanced Software Engineering", "Architecture, advanced methods, requirements engineering, quality, testing, maintenance, and evolution."],
+          ["Software Architecture", "Architectural styles, trade-offs, modularity, scalability, and technical decision making."],
+          ["Design Patterns and Advanced OOP Modeling", "Reusable design solutions, SOLID principles, UML models, and object-oriented design quality."],
+          ["Quality Engineering", "Testing, refactoring, code quality, validation, and continuous improvement."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Main Notions"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Software lifecycle, requirements capture, specifications, traceability, and documentation.",
+          "UML models: use cases, class diagrams, sequence diagrams, activity diagrams, and architectural views.",
+          "Architecture styles: layered architecture, MVC, microservices, event-driven systems, and distributed architecture trade-offs.",
+          "Design principles and patterns: SOLID, Factory, Singleton, Observer, Strategy, and other recurring solutions.",
+          "Quality: tests, validation, refactoring, maintainability, versioning, evolution, and technical debt.",
+          "Business process modeling with BPMN and process automation concepts."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "How the Course Runs"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "The course uses a balance of conceptual framing, case studies, modeling exercises, quizzes, project work, and student presentations. Students are expected to justify their choices: why this architecture, why this model, why this pattern, why this test strategy, and what trade-off is being accepted."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "[b]Modeling activities[/b]: students formalize requirements and designs before implementation.",
+          "[b]Architecture reasoning[/b]: technical choices are discussed as trade-offs, not as recipes.",
+          "[b]Quality practice[/b]: refactoring, testing, code review habits, and maintainability are treated as engineering responsibilities.",
+          "[b]Process perspective[/b]: BPMN and workflow automation help connect software systems with organizational processes."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Competencies Developed"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Translate a problem domain into requirements, models, and design decisions.",
+          "Choose and justify an architecture for a software system.",
+          "Apply design principles and patterns without overengineering.",
+          "Assess and improve software quality through testing and refactoring.",
+          "Communicate a technical design clearly to a team or evaluator."
+        ]
+      }
+    }
+  ]
+}

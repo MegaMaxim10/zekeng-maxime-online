@@ -1,2 +1,698 @@
 /* Project custom styles */
 
+@keyframes portfolio-fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.teaching-stat-grid .card,
+.teaching-domain-grid .card,
+.teaching-record-table .table-wrap,
+.teaching-method-table .table-wrap,
+.consulting-stat-grid .card,
+.consulting-capability-grid .card,
+.consulting-evidence-grid .card,
+.consulting-partner-grid .card,
+.consulting-tech-grid .card,
+.consulting-modes-table .table-wrap,
+.consulting-evidence-table .table-wrap,
+.consulting-practice-table .table-wrap,
+.consulting-timeline .timeline-item,
+.other-stat-grid .card,
+.other-domain-grid .card,
+.other-works-table .table-wrap,
+.other-feature-embed,
+.other-soundcloud-embed,
+.other-links .link-group {
+    animation: portfolio-fade-up 0.52s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.card-grid .card:nth-child(2),
+.link-groups .link-group:nth-child(2),
+.timeline-list .timeline-item:nth-child(2) {
+    animation-delay: 50ms;
+}
+
+.card-grid .card:nth-child(3),
+.link-groups .link-group:nth-child(3),
+.timeline-list .timeline-item:nth-child(3) {
+    animation-delay: 100ms;
+}
+
+.card-grid .card:nth-child(4),
+.link-groups .link-group:nth-child(4),
+.timeline-list .timeline-item:nth-child(4) {
+    animation-delay: 150ms;
+}
+
+.card-grid .card:nth-child(n + 5),
+.link-groups .link-group:nth-child(n + 5),
+.timeline-list .timeline-item:nth-child(n + 5) {
+    animation-delay: 190ms;
+}
+
+.teaching-stat-grid .card,
+.consulting-stat-grid .card,
+.consulting-evidence-grid .card,
+.consulting-partner-grid .card,
+.consulting-tech-grid .card,
+.other-stat-grid .card,
+.other-links .link-group,
+.other-feature-embed .embed-frame,
+.other-soundcloud-embed .embed-frame {
+    transition:
+        border-color var(--transition),
+        box-shadow var(--transition),
+        transform var(--transition);
+}
+
+.teaching-stat-grid .card:hover,
+.consulting-stat-grid .card:hover,
+.consulting-evidence-grid .card:hover,
+.consulting-partner-grid .card:hover,
+.consulting-tech-grid .card:hover,
+.other-stat-grid .card:hover,
+.other-links .link-group:hover,
+.other-feature-embed:hover .embed-frame,
+.other-soundcloud-embed:hover .embed-frame {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.other-feature-embed iframe,
+.other-soundcloud-embed iframe {
+    transform-origin: center;
+    transition: filter var(--transition), transform 520ms ease;
+}
+
+.other-feature-embed:hover iframe,
+.other-soundcloud-embed:hover iframe {
+    filter: saturate(1.05);
+    transform: scale(1.01);
+}
+
+.teaching-record-table tbody tr,
+.teaching-method-table tbody tr,
+.consulting-modes-table tbody tr,
+.consulting-evidence-table tbody tr,
+.consulting-practice-table tbody tr,
+.other-works-table tbody tr {
+    transition: background-color var(--transition);
+}
+
+.teaching-record-table tbody tr:hover td,
+.teaching-method-table tbody tr:hover td,
+.consulting-modes-table tbody tr:hover td,
+.consulting-evidence-table tbody tr:hover td,
+.consulting-practice-table tbody tr:hover td,
+.other-works-table tbody tr:hover td {
+    background: color-mix(in oklab, var(--accent-primary) 9%, var(--bg-elevated));
+}
+
+.teaching-stat-grid.card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.85rem;
+}
+
+.teaching-stat-grid .card {
+    position: relative;
+    overflow: hidden;
+    min-height: 9.25rem;
+    border-radius: var(--radius-sm);
+    border-color: color-mix(in oklab, var(--accent-primary) 34%, var(--border-color));
+    border-left: 4px solid var(--teaching-card-accent, var(--accent-primary));
+    background:
+        linear-gradient(135deg, color-mix(in oklab, var(--teaching-card-accent, var(--accent-primary)) 11%, transparent), transparent 46%),
+        var(--bg-elevated);
+}
+
+.teaching-stat-grid .card::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--teaching-card-accent, var(--accent-primary)), var(--accent-secondary));
+}
+
+.teaching-stat-grid .card h3 {
+    color: var(--text-primary);
+    font-size: 1.55rem;
+    letter-spacing: 0;
+}
+
+.teaching-stat-grid .card:nth-child(2) {
+    --teaching-card-accent: var(--accent-secondary);
+}
+
+.teaching-stat-grid .card:nth-child(3) {
+    --teaching-card-accent: var(--focus-color);
+}
+
+.teaching-stat-grid .card:nth-child(4) {
+    --teaching-card-accent: color-mix(in oklab, var(--accent-primary) 62%, var(--focus-color));
+}
+
+.teaching-stat-grid .card p {
+    color: var(--text-secondary);
+}
+
+.teaching-note.block-paragraph {
+    border-left: 4px solid var(--focus-color);
+    border-radius: var(--radius-sm);
+    padding: 0.75rem 0.9rem;
+    background: color-mix(in oklab, var(--focus-color) 10%, var(--bg-elevated));
+    color: var(--text-secondary);
+}
+
+.teaching-domain-grid.card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+    gap: 0.95rem;
+}
+
+.teaching-domain-grid .card {
+    --teaching-card-accent: color-mix(in oklab, var(--accent-secondary) 70%, var(--accent-primary));
+    min-height: 13.5rem;
+    align-content: start;
+    border-radius: var(--radius-sm);
+    border-top: 3px solid var(--teaching-card-accent);
+    transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+}
+
+.teaching-domain-grid .card:nth-child(3n + 1) {
+    --teaching-card-accent: var(--accent-primary);
+}
+
+.teaching-domain-grid .card:nth-child(3n + 2) {
+    --teaching-card-accent: var(--accent-secondary);
+}
+
+.teaching-domain-grid .card:nth-child(3n) {
+    --teaching-card-accent: var(--focus-color);
+}
+
+.teaching-domain-grid .card:hover {
+    border-color: color-mix(in oklab, var(--teaching-card-accent) 64%, var(--border-color));
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.teaching-domain-grid .card h3 {
+    letter-spacing: 0;
+}
+
+.teaching-domain-grid .card a {
+    align-self: end;
+    margin-top: auto;
+    background: color-mix(in oklab, var(--accent-primary) 10%, transparent);
+}
+
+.teaching-record-table {
+    margin: var(--space-2) 0 var(--space-3);
+}
+
+.teaching-record-table .table-wrap {
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+}
+
+.teaching-record-table table {
+    min-width: 820px;
+}
+
+.teaching-record-table th {
+    background:
+        linear-gradient(120deg, color-mix(in oklab, var(--accent-primary) 18%, var(--bg-secondary)), color-mix(in oklab, var(--accent-secondary) 12%, var(--bg-elevated)));
+    color: var(--text-primary);
+}
+
+.teaching-record-table td:first-child,
+.teaching-record-table td:nth-child(2) {
+    font-weight: 750;
+    color: var(--text-primary);
+    white-space: nowrap;
+}
+
+.teaching-record-table tbody tr:nth-child(even) td,
+.teaching-record-table + .table-block tbody tr:nth-child(even) td,
+.teaching-method-table tbody tr:nth-child(even) td {
+    background: color-mix(in oklab, var(--bg-secondary) 38%, transparent);
+}
+
+.teaching-record-table + .table-block .table-wrap,
+.teaching-method-table .table-wrap {
+    border-radius: var(--radius-sm);
+}
+
+.teaching-record-table + .table-block th,
+.teaching-method-table th {
+    color: var(--text-primary);
+}
+
+.teaching-method-table td:first-child {
+    width: 12rem;
+    font-weight: 750;
+    color: var(--text-primary);
+}
+
+@media (max-width: 680px) {
+    .teaching-stat-grid .card,
+    .teaching-domain-grid .card {
+        min-height: auto;
+    }
+
+    .teaching-record-table table {
+        min-width: 760px;
+    }
+}
+
+.consulting-stat-grid.card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.85rem;
+}
+
+.consulting-stat-grid .card {
+    position: relative;
+    overflow: hidden;
+    min-height: 10rem;
+    border-radius: var(--radius-sm);
+    border-left: 4px solid var(--consulting-card-accent, var(--accent-secondary));
+    background:
+        linear-gradient(135deg, color-mix(in oklab, var(--consulting-card-accent, var(--accent-secondary)) 13%, transparent), transparent 45%),
+        var(--bg-elevated);
+}
+
+.consulting-stat-grid .card::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--consulting-card-accent, var(--accent-secondary)), var(--focus-color));
+}
+
+.consulting-stat-grid .card h3 {
+    color: var(--text-primary);
+    font-size: 1.45rem;
+    letter-spacing: 0;
+}
+
+.consulting-stat-grid .card:nth-child(2) {
+    --consulting-card-accent: var(--accent-primary);
+}
+
+.consulting-stat-grid .card:nth-child(3) {
+    --consulting-card-accent: var(--focus-color);
+}
+
+.consulting-stat-grid .card:nth-child(4) {
+    --consulting-card-accent: color-mix(in oklab, var(--accent-primary) 66%, var(--focus-color));
+}
+
+.consulting-stat-grid .card:nth-child(5) {
+    --consulting-card-accent: color-mix(in oklab, var(--accent-secondary) 74%, var(--accent-primary));
+}
+
+.consulting-note.block-paragraph {
+    border-left: 4px solid var(--accent-secondary);
+    border-radius: var(--radius-sm);
+    padding: 0.8rem 0.95rem;
+    background: color-mix(in oklab, var(--accent-secondary) 10%, var(--bg-elevated));
+    color: var(--text-secondary);
+}
+
+.consulting-timeline .timeline-item {
+    border-left-color: color-mix(in oklab, var(--accent-secondary) 58%, var(--border-color));
+}
+
+.consulting-timeline .timeline-period {
+    color: var(--text-primary);
+    font-weight: 750;
+}
+
+.consulting-capability-grid.card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+    gap: 0.95rem;
+}
+
+.consulting-capability-grid .card {
+    --consulting-card-accent: color-mix(in oklab, var(--accent-primary) 70%, var(--accent-secondary));
+    min-height: 14rem;
+    align-content: start;
+    border-radius: var(--radius-sm);
+    border-top: 3px solid var(--consulting-card-accent);
+    transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+}
+
+.consulting-capability-grid .card:nth-child(3n + 1) {
+    --consulting-card-accent: var(--accent-secondary);
+}
+
+.consulting-capability-grid .card:nth-child(3n + 2) {
+    --consulting-card-accent: var(--accent-primary);
+}
+
+.consulting-capability-grid .card:nth-child(3n) {
+    --consulting-card-accent: var(--focus-color);
+}
+
+.consulting-capability-grid .card:hover {
+    border-color: color-mix(in oklab, var(--consulting-card-accent) 64%, var(--border-color));
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.consulting-capability-grid .card h3 {
+    color: var(--text-primary);
+    letter-spacing: 0;
+}
+
+.consulting-capability-grid .card a {
+    align-self: end;
+    margin-top: auto;
+    background: color-mix(in oklab, var(--accent-secondary) 10%, transparent);
+}
+
+.consulting-evidence-grid.card-grid,
+.consulting-partner-grid.card-grid,
+.consulting-tech-grid.card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.9rem;
+}
+
+.consulting-evidence-grid .card,
+.consulting-partner-grid .card,
+.consulting-tech-grid .card {
+    --consulting-card-accent: color-mix(in oklab, var(--accent-secondary) 70%, var(--accent-primary));
+    min-height: 11rem;
+    align-content: start;
+    border-radius: var(--radius-sm);
+    border-color: color-mix(in oklab, var(--consulting-card-accent) 22%, var(--border-color));
+    background:
+        linear-gradient(135deg, color-mix(in oklab, var(--consulting-card-accent) 8%, transparent), transparent 48%),
+        var(--bg-elevated);
+}
+
+.consulting-evidence-grid .card {
+    border-left: 3px solid var(--consulting-card-accent);
+}
+
+.consulting-tech-grid .card {
+    border-left: 3px solid var(--consulting-card-accent);
+    min-height: 10rem;
+}
+
+.consulting-partner-grid .card {
+    min-height: 10rem;
+    border-top: 3px solid var(--consulting-card-accent);
+}
+
+.consulting-evidence-grid .card:nth-child(3n + 1),
+.consulting-partner-grid .card:nth-child(3n + 1),
+.consulting-tech-grid .card:nth-child(3n + 1) {
+    --consulting-card-accent: var(--accent-secondary);
+}
+
+.consulting-evidence-grid .card:nth-child(3n + 2),
+.consulting-partner-grid .card:nth-child(3n + 2),
+.consulting-tech-grid .card:nth-child(3n + 2) {
+    --consulting-card-accent: var(--accent-primary);
+}
+
+.consulting-evidence-grid .card:nth-child(3n),
+.consulting-partner-grid .card:nth-child(3n),
+.consulting-tech-grid .card:nth-child(3n) {
+    --consulting-card-accent: var(--focus-color);
+}
+
+.consulting-evidence-grid .card h3,
+.consulting-partner-grid .card h3,
+.consulting-tech-grid .card h3 {
+    color: var(--text-primary);
+    letter-spacing: 0;
+}
+
+.consulting-partner-grid .card h3 {
+    display: inline-flex;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid color-mix(in oklab, var(--consulting-card-accent) 42%, var(--border-color));
+    font-size: 1.05rem;
+}
+
+.consulting-modes-table,
+.consulting-evidence-table,
+.consulting-practice-table {
+    margin: var(--space-2) 0 var(--space-3);
+}
+
+.consulting-modes-table .table-wrap,
+.consulting-evidence-table .table-wrap,
+.consulting-practice-table .table-wrap {
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+}
+
+.consulting-modes-table table {
+    min-width: 820px;
+}
+
+.consulting-evidence-table table,
+.consulting-practice-table table {
+    min-width: 760px;
+}
+
+.consulting-modes-table th,
+.consulting-evidence-table th,
+.consulting-practice-table th {
+    background:
+        linear-gradient(120deg, color-mix(in oklab, var(--accent-secondary) 16%, var(--bg-secondary)), color-mix(in oklab, var(--focus-color) 10%, var(--bg-elevated)));
+    color: var(--text-primary);
+}
+
+.consulting-modes-table td:first-child,
+.consulting-evidence-table td:first-child,
+.consulting-practice-table td:first-child {
+    font-weight: 750;
+    color: var(--text-primary);
+}
+
+.consulting-modes-table tbody tr:nth-child(even) td,
+.consulting-evidence-table tbody tr:nth-child(even) td,
+.consulting-practice-table tbody tr:nth-child(even) td {
+    background: color-mix(in oklab, var(--bg-secondary) 38%, transparent);
+}
+
+@media (max-width: 680px) {
+    .consulting-stat-grid .card,
+    .consulting-capability-grid .card,
+    .consulting-evidence-grid .card,
+    .consulting-partner-grid .card,
+    .consulting-tech-grid .card {
+        min-height: auto;
+    }
+
+    .consulting-modes-table table,
+    .consulting-evidence-table table,
+    .consulting-practice-table table {
+        min-width: 720px;
+    }
+}
+
+.other-stat-grid.card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.85rem;
+}
+
+.other-stat-grid .card {
+    position: relative;
+    overflow: hidden;
+    min-height: 9.5rem;
+    border-radius: var(--radius-sm);
+    border-left: 4px solid var(--other-card-accent, var(--focus-color));
+    background:
+        linear-gradient(135deg, color-mix(in oklab, var(--other-card-accent, var(--focus-color)) 12%, transparent), transparent 45%),
+        var(--bg-elevated);
+}
+
+.other-stat-grid .card::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--other-card-accent, var(--focus-color)), var(--accent-primary));
+}
+
+.other-stat-grid .card h3 {
+    color: var(--text-primary);
+    font-size: 1.45rem;
+    letter-spacing: 0;
+}
+
+.other-stat-grid .card:nth-child(2) {
+    --other-card-accent: var(--accent-primary);
+}
+
+.other-stat-grid .card:nth-child(3) {
+    --other-card-accent: var(--accent-secondary);
+}
+
+.other-stat-grid .card:nth-child(4) {
+    --other-card-accent: color-mix(in oklab, var(--accent-primary) 64%, var(--focus-color));
+}
+
+.other-stat-grid .card:nth-child(5) {
+    --other-card-accent: color-mix(in oklab, var(--accent-secondary) 68%, var(--focus-color));
+}
+
+.other-stat-grid .card p {
+    color: var(--text-secondary);
+}
+
+.other-domain-grid.card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+    gap: 0.95rem;
+}
+
+.other-domain-grid .card {
+    --other-card-accent: color-mix(in oklab, var(--focus-color) 70%, var(--accent-primary));
+    min-height: 12.75rem;
+    align-content: start;
+    border-radius: var(--radius-sm);
+    border-top: 3px solid var(--other-card-accent);
+    transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+}
+
+.other-domain-grid .card:nth-child(3n + 1) {
+    --other-card-accent: var(--focus-color);
+}
+
+.other-domain-grid .card:nth-child(3n + 2) {
+    --other-card-accent: var(--accent-primary);
+}
+
+.other-domain-grid .card:nth-child(3n) {
+    --other-card-accent: var(--accent-secondary);
+}
+
+.other-domain-grid .card:hover {
+    border-color: color-mix(in oklab, var(--other-card-accent) 64%, var(--border-color));
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.other-domain-grid .card h3 {
+    color: var(--text-primary);
+    letter-spacing: 0;
+}
+
+.other-domain-grid .card a {
+    align-self: end;
+    margin-top: auto;
+    background: color-mix(in oklab, var(--focus-color) 10%, transparent);
+}
+
+.other-works-table {
+    margin: var(--space-2) 0 var(--space-3);
+}
+
+.other-works-table .table-wrap {
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+}
+
+.other-works-table table {
+    min-width: 820px;
+}
+
+.other-works-table th {
+    background:
+        linear-gradient(120deg, color-mix(in oklab, var(--focus-color) 16%, var(--bg-secondary)), color-mix(in oklab, var(--accent-primary) 10%, var(--bg-elevated)));
+    color: var(--text-primary);
+}
+
+.other-works-table td:first-child {
+    font-weight: 750;
+    color: var(--text-primary);
+}
+
+.other-works-table tbody tr:nth-child(even) td {
+    background: color-mix(in oklab, var(--bg-secondary) 38%, transparent);
+}
+
+.other-feature-embed,
+.other-soundcloud-embed {
+    margin: var(--space-2) 0 var(--space-3);
+}
+
+.other-feature-embed .embed-frame,
+.other-soundcloud-embed .embed-frame {
+    overflow: hidden;
+    border: 1px solid color-mix(in oklab, var(--focus-color) 26%, var(--border-color));
+    border-radius: var(--radius-sm);
+    background: var(--bg-elevated);
+    box-shadow: var(--shadow-sm);
+}
+
+.other-feature-embed figcaption,
+.other-soundcloud-embed figcaption {
+    color: var(--text-secondary);
+}
+
+.other-links.link-groups {
+    margin: var(--space-2) 0 var(--space-3);
+}
+
+.other-links .link-group {
+    border-radius: var(--radius-sm);
+    border-top: 3px solid color-mix(in oklab, var(--focus-color) 52%, var(--border-color));
+    box-shadow: var(--shadow-sm);
+}
+
+.other-links .link-groups-link:hover {
+    color: var(--focus-color);
+}
+
+@media (max-width: 680px) {
+    .other-stat-grid .card,
+    .other-domain-grid .card {
+        min-height: auto;
+    }
+
+    .other-works-table table {
+        min-width: 720px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .teaching-stat-grid .card,
+    .teaching-domain-grid .card,
+    .teaching-record-table .table-wrap,
+    .teaching-method-table .table-wrap,
+    .consulting-stat-grid .card,
+    .consulting-capability-grid .card,
+    .consulting-evidence-grid .card,
+    .consulting-partner-grid .card,
+    .consulting-tech-grid .card,
+    .consulting-modes-table .table-wrap,
+    .consulting-evidence-table .table-wrap,
+    .consulting-practice-table .table-wrap,
+    .consulting-timeline .timeline-item,
+    .other-stat-grid .card,
+    .other-domain-grid .card,
+    .other-works-table .table-wrap,
+    .other-feature-embed,
+    .other-soundcloud-embed,
+    .other-links .link-group,
+    .other-feature-embed iframe,
+    .other-soundcloud-embed iframe {
+        animation: none !important;
+        transition-duration: 0.01ms !important;
+        transform: none !important;
+    }
+}
+

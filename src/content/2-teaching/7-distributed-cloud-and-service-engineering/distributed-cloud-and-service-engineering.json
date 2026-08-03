@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "id": "distributed-cloud-and-service-engineering",
+    "title": "Distributed, Cloud and Systems Engineering",
+    "description": "Courses on operating systems, distributed programming, middleware, cloud computing, service engineering, service-oriented systems, integration, scalability, deployment, and operational thinking.",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "teaching",
+      "distributed-systems",
+      "cloud-computing",
+      "operating-systems",
+      "service-engineering",
+      "middleware"
+    ]
+  },
+  "header": {
+    "title": "Distributed, Cloud and Systems Engineering",
+    "lead": "These courses focus on computing systems beyond isolated programming exercises: operating systems, distributed applications, services, cloud environments, integration layers, and deployment-oriented engineering."
+  },
+  "body": [
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Course Context"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "This family groups operating systems, distributed programming, middleware, cloud computing, service engineering, service-oriented architecture, embedded Linux/systems topics, and programming for secure or distributed environments. The common concern is how software interacts with execution environments, machines, networks, services, and infrastructure."
+      }
+    },
+    {
+      "type": "table",
+      "style": ["teaching-record-table"],
+      "data": {
+        "caption": "Teaching record",
+        "compact": true,
+        "headers": ["Years", "Role", "Institution", "Track / level", "Courses documented"],
+        "rows": [
+          ["2015-2017", "Teaching assistant / monitor", "University of Dschang, Department of Mathematics and Computer Science", "Computer Science, M1 practical groups", "Middleware / Intergiciel de base"],
+          ["2021-2023", "Visiting lecturer / course instructor", "Douala Institute of Technology (DIT)", "L3 and M2 engineering cohorts", "Distributed Programming and Parallel Information Processing"],
+          ["2021-2026", "Visiting lecturer / course instructor", "University of the Mountains (UdM)", "Engineering and technology tracks", "Service Engineering, SOA-oriented projects and web-service practice"],
+          ["2022-2025", "Course lecturer / main instructor", "University of Dschang, Faculty of Science", "Chemistry, L3", "Operating Systems"],
+          ["2023-2024", "Course lecturer / instructor", "University of Dschang, RTS professional context", "RTS cohort", "Distributed Programming, Embedded Linux and Embedded Systems"],
+          ["2024-2026", "Course lecturer / instructor", "University of Dschang, Master Governance / security-oriented program", "Master-level professional cohort", "Distributed Programming and security-aware web programming"],
+          ["2025-2026", "Course lecturer / main instructor", "University of Dschang, Faculty of Science", "Computer Science, M1", "Cloud Computing"],
+          ["2025-2026", "Course lecturer / instructor", "University of Dschang, Faculty of Science", "RSD track", "Wireless and Mobile Networks / RSD428"]
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "data": {
+        "compact": true,
+        "headers": ["Representative labels", "Teaching focus"],
+        "rows": [
+          ["Operating Systems", "Processes, scheduling, memory management, file systems, input/output, protection, and the operating system as a resource manager."],
+          ["Distributed Programming", "Processes, communication, remote calls, concurrency, synchronization, and distributed coordination."],
+          ["Middleware", "Integration layers, communication abstractions, services, and infrastructure concerns."],
+          ["Cloud Computing", "Virtualization, deployment models, cloud services, scalability, and operational constraints."],
+          ["Service Engineering", "Service design, service composition, quality of service, and organizational value delivery."],
+          ["Secure Web / Distributed Applications", "Security-aware programming, data exchange, and robustness in networked applications."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Main Notions"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Operating-system foundations: processes, scheduling, memory, file systems, I/O, protection, and system calls.",
+          "Client/server systems, distributed processes, communication protocols, APIs, and remote services.",
+          "Concurrency, synchronization, failures, latency, availability, and consistency trade-offs.",
+          "Middleware roles: abstraction, interoperability, messaging, service discovery, and integration.",
+          "Cloud models: IaaS, PaaS, SaaS, virtualization, containers, deployment, scaling, and monitoring basics.",
+          "Service design: service contracts, composition, quality attributes, and value-oriented delivery."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "How the Course Runs"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "The course combines architecture-level reasoning with implementation-oriented exercises. Students are encouraged to understand where the boundaries are: between client and server, local and remote, synchronous and asynchronous, component and service, development and deployment."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "[b]System thinking[/b]: students analyze a software system as a set of interacting parts.",
+          "[b]Failure awareness[/b]: examples include network delays, unavailable services, inconsistent state, and security constraints.",
+          "[b]Deployment mindset[/b]: implementation choices are connected to scalability, configuration, and operational behavior."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Competencies Developed"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Design applications that communicate across process, machine, or service boundaries.",
+          "Understand the role of middleware and cloud platforms in modern software systems.",
+          "Reason about scalability, availability, communication, and deployment constraints.",
+          "Integrate services and APIs while considering security and reliability.",
+          "Move from code-only thinking to system-level engineering."
+        ]
+      }
+    }
+  ]
+}

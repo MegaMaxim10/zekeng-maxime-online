@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "id": "enterprise-systems-data-and-process-automation",
+    "title": "Enterprise Systems, Data and Process Automation",
+    "description": "Consulting capability page on enterprise systems, ERP modules, data workflows, integration, reporting, document management, Kafka, XML transformation, and process automation.",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "consulting",
+      "enterprise-systems",
+      "data-integration",
+      "process-automation"
+    ]
+  },
+  "header": {
+    "title": "Enterprise Systems, Data and Process Automation",
+    "lead": "I work on systems where software must coordinate documents, users, roles, financial rules, data flows, reports, and organizational processes."
+  },
+  "body": [
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Consulting Context"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "Several engagements in my archive involve enterprise platforms: ERP modules, financial operations, billing, identity and access, document management, notifications, registration workflows, reporting, API gateways, XML transformation, Kafka-based messaging, data migration concerns, and business-process tooling. These systems demand careful modeling because a small ambiguity can become a large operational problem."
+      }
+    },
+    {
+      "type": "table",
+      "style": ["consulting-practice-table"],
+      "data": {
+        "compact": true,
+        "headers": ["Problem", "How I help"],
+        "rows": [
+          ["The process is understood by people but not by the software.", "Model the workflow, roles, states, transitions, validations, exceptions, and audit needs before implementation."],
+          ["Data flows through many modules.", "Clarify ownership, integration points, schemas, identifiers, validation rules, and reporting requirements."],
+          ["Documents and decisions must be traceable.", "Design document lifecycle, print/generation modules, storage rules, logs, permissions, and retention assumptions."],
+          ["The system must support regulated work.", "Make roles, authorization, validation, auditability, and error handling explicit in the architecture."],
+          ["Legacy formats or integrations are unavoidable.", "Create transformation layers, adapters, test cases, and migration paths that protect the core domain model."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Representative Topics"
+      }
+    },
+    {
+      "type": "table",
+      "style": ["consulting-evidence-table"],
+      "data": {
+        "compact": true,
+        "headers": ["Topic", "What it usually involves"],
+        "rows": [
+          ["Identity and access", "Authentication, roles, permissions, sessions, MFA-oriented concerns, account lifecycle, and admin supervision."],
+          ["Financial and administrative workflows", "Registration, instruction, billing, declarations, operations, reporting, document production, and compliance checks."],
+          ["Data integration", "XML transformation, relational schemas, NoSQL usage, data validation, imports, exports, and migration checks."],
+          ["Event streaming and messaging", "Kafka producers and consumers, Avro serialization, Schema Registry, Kafka Connect, AKHQ, Zookeeper-backed local stacks, broker provisioning, dead-letter/error-handling concerns, and integration reliability."],
+          ["Process-oriented systems", "BPMN-inspired models, task assignment, runtime states, actor responsibilities, and audit trails."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Deliverables"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Process map, state model, and actor responsibility matrix.",
+          "Data model, module map, and integration contract.",
+          "Architecture proposal for document, billing, notification, identity, or reporting modules.",
+          "Kafka integration prototype or implementation plan with producer/consumer configuration, schema strategy, topic lifecycle, and operational concerns.",
+          "Test strategy for critical business rules and integration flows.",
+          "Migration, rollout, or operational documentation."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "My Added Value"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "Enterprise systems are rarely only technical. They encode governance. My contribution is to keep the business rule, the data structure, the code, the test, and the operational consequence visible at the same time."
+      }
+    }
+  ]
+}

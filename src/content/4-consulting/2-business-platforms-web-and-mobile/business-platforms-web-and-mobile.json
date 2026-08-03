@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "id": "business-platforms-web-and-mobile",
+    "title": "Business Platforms, Web and Mobile Applications",
+    "description": "Consulting capability page on business applications, web platforms, mobile apps, APIs, admin dashboards, portals, and frontend/backend integration.",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "consulting",
+      "web-development",
+      "mobile-development",
+      "business-platforms"
+    ]
+  },
+  "header": {
+    "title": "Business Platforms, Web and Mobile Applications",
+    "lead": "I build and improve the kind of applications organizations actually run on: portals, dashboards, APIs, mobile clients, back offices, and business workflows."
+  },
+  "body": [
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Consulting Context"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "My archive includes public websites, internal management tools, mobile apps, Angular and React dashboards, Laravel APIs, Spring Boot backends, health-oriented service platforms, ERP modules, community-finance systems, e-commerce components, payment and notification services, and delivery packages for partner applications. The common thread is the same: make software useful to real users while keeping the technical base coherent."
+      }
+    },
+    {
+      "type": "table",
+      "style": ["consulting-practice-table"],
+      "data": {
+        "compact": true,
+        "headers": ["Product situation", "What I focus on"],
+        "rows": [
+          ["A public or internal platform must be delivered quickly.", "Clarify the workflows, design a viable architecture, build the critical path, and leave room for evolution."],
+          ["Frontend and backend do not align well.", "Stabilize API contracts, data shapes, authentication flows, error handling, and frontend state management."],
+          ["A mobile app depends on fragile backend behavior.", "Review domain flows, synchronization assumptions, security boundaries, and operational failure cases."],
+          ["Dashboards are difficult to maintain.", "Improve component structure, data loading, table/filter patterns, user feedback, and reusable UI conventions."],
+          ["The product has too many hidden manual steps.", "Automate recurrent actions, document operational procedures, and expose the right admin controls."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Representative Product Families"
+      }
+    },
+    {
+      "type": "table",
+      "style": ["consulting-evidence-table"],
+      "data": {
+        "compact": true,
+        "headers": ["Family", "Public-safe examples of work"],
+        "rows": [
+          ["Administrative back offices", "Role-based dashboards, operational tables, forms, validation flows, reporting screens, and data-entry interfaces."],
+          ["Service platforms", "User onboarding, identity, provider/client separation, notifications, payment-related flows, storage, and admin supervision."],
+          ["Community and financial applications", "Membership, governance, subscription, penalties, events, reporting, and secure backend modules."],
+          ["Business websites and portals", "Public pages, landing experiences, content systems, institutional sites, and information architecture."],
+          ["Mobile-facing systems", "Android and Flutter-oriented repositories, mobile build preparation, backend API support, and deployment documentation."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Technology Practice"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "[b]Frontend[/b]: Angular, React, Vue, Vite, Tailwind, HTML/CSS/JavaScript, reusable components, forms, dashboards, and responsive interfaces.",
+          "[b]Backend[/b]: Spring Boot, Laravel, .NET, Node.js, REST APIs, identity, notification, document, payment, and domain modules.",
+          "[b]Mobile[/b]: Android delivery, Flutter-oriented projects, mobile configuration, environment builds, and API-backed workflows.",
+          "[b]Product discipline[/b]: specifications, issue triage, acceptance criteria, release notes, deployment preparation, and documentation."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Outcome Orientation"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "For business platforms, I judge success by more than the screen working once. The system should be understandable to users, maintainable by developers, testable by the team, deployable without improvisation, and explicit about the data and decisions it manipulates."
+      }
+    }
+  ]
+}

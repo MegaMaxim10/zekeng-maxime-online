@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "id": "technical-mentoring-and-team-enablement",
+    "title": "Technical Mentoring and Team Enablement",
+    "description": "Consulting capability page on developer mentoring, code review, training, workshops, architecture clinics, documentation, and technical team enablement.",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "consulting",
+      "mentoring",
+      "training",
+      "code-review",
+      "team-enablement"
+    ]
+  },
+  "header": {
+    "title": "Technical Mentoring and Team Enablement",
+    "lead": "I help developers and teams become more autonomous, more rigorous, and more confident while still working on real software."
+  },
+  "body": [
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Consulting Context"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "Mentoring is a natural extension of my teaching and consulting practice. My archive includes professional mentoring material, online project-based support, code review work, frontend and React learning paths, debugging sessions, technical guidance for young developers, university teaching, and practical coaching inside project teams."
+      }
+    },
+    {
+      "type": "table",
+      "style": ["consulting-practice-table"],
+      "data": {
+        "compact": true,
+        "headers": ["Enablement mode", "What happens in practice"],
+        "rows": [
+          ["Developer mentoring", "Regular review of progress, explanation of concepts, debugging support, learning objectives, and advice adapted to the learner's level."],
+          ["Code review", "Feedback on readability, architecture, tests, naming, error handling, security assumptions, maintainability, and delivery readiness."],
+          ["Architecture clinics", "Focused sessions where a team presents a design problem and leaves with trade-offs, options, and a concrete next step."],
+          ["Workshops and training", "Hands-on sessions on web development, React, APIs, testing, software engineering, DevOps, documentation, or architecture."],
+          ["Team standards", "Lightweight conventions for commits, branches, README files, environment setup, test commands, release notes, and onboarding."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Topics I Often Cover"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "How to move from copying code to understanding code.",
+          "How to debug systematically instead of guessing.",
+          "How to structure a project so another developer can enter it.",
+          "How to write meaningful tests and use failures as information.",
+          "How to document setup, decisions, and operational procedures.",
+          "How to prepare for code review and technical interviews.",
+          "How to grow as a developer without confusing speed with maturity."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "What Teams Gain"
+      }
+    },
+    {
+      "type": "table",
+      "style": ["consulting-evidence-table"],
+      "data": {
+        "compact": true,
+        "headers": ["Before", "After"],
+        "rows": [
+          ["Knowledge is concentrated in one or two people.", "The team has documentation, shared vocabulary, repeatable practices, and clearer ownership."],
+          ["Junior developers are afraid to change code.", "They learn to read, test, refactor, ask good questions, and explain their decisions."],
+          ["Reviews feel personal or arbitrary.", "Review criteria become explicit: correctness, clarity, tests, security, maintainability, and fit with architecture."],
+          ["Delivery is stressful.", "The team has checklists, commands, acceptance criteria, and release habits that reduce improvisation."],
+          ["Learning is detached from work.", "Training is anchored in the actual project, so progress is visible in the codebase."
+          ]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Mentoring Philosophy"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "Good mentoring is neither doing the work in someone else's place nor abandoning them to struggle. It is a calibrated presence: enough structure to prevent chaos, enough freedom for real learning, and enough honesty to turn mistakes into engineering judgment."
+      }
+    }
+  ]
+}

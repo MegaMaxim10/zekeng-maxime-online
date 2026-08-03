@@ -1,27 +1,159 @@
 {
   "meta": {
     "id": "writing",
-    "title": "Writing",
+    "title": "Writing and Poetry",
+    "description": "A public archive of poems, technical writing, and reflective texts that complement my academic and engineering work.",
     "language": "en",
     "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "poetry",
+      "writing",
+      "creative-expression",
+      "public-archive"
+    ],
     "genSubMenus": false
   },
   "header": {
-    "title": "Writing",
-    "lead": "Articles, essays, and written contributions."
+    "title": "Writing and Poetry",
+    "lead": "Writing is one of the places where I let precision meet vulnerability: ideas become lines, feelings become arguments, and personal experience becomes something shareable."
   },
   "body": [
     {
       "type": "heading",
       "data": {
         "level": 2,
-        "text": "Writing"
+        "text": "Public Poetry Archive"
       }
     },
     {
       "type": "paragraph",
       "data": {
-        "text": "This page is currently under construction. More content will be available soon."
+        "text": "Under the pen name [b]Maxim10[/b], I published a set of poems on La Passion des Poemes, a francophone poetry community. The public portfolio lists 19 poems published between 2015 and 2018, across love poems, sad poems, humorous poems, other poems, short forms, and acrostics. I list the works here as an index, but I do not reproduce the poems themselves; readers should access them through the original platform."
+      }
+    },
+    {
+      "type": "card-grid",
+      "style": ["other-stat-grid"],
+      "data": {
+        "cards": [
+          {
+            "title": "19 poems",
+            "description": "A compact but expressive public archive on La Passion des Poemes."
+          },
+          {
+            "title": "2015-2018",
+            "description": "A period of publication that preserves an earlier creative voice."
+          },
+          {
+            "title": "6 categories",
+            "description": "Love, sadness, humor, short forms, acrostic writing, and community-oriented poems."
+          },
+          {
+            "title": "21k+ visits",
+            "description": "The listed works received more than twenty-one thousand cumulative public visits."
+          }
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "style": ["other-works-table"],
+      "data": {
+        "caption": "Public poems listed on La Passion des Poemes",
+        "compact": true,
+        "headers": ["Title", "Category", "Published", "Public signal"],
+        "rows": [
+          ["[Pourquoi l'amour ?](https://www.lapassiondespoemes.com/?action=viewpost&ID=79000&cat=1)", "Love poems", "6 Oct 2018", "1048 visits"],
+          ["[Papa](https://www.lapassiondespoemes.com/?action=viewpost&ID=78997&cat=1)", "Love poems", "5 Oct 2018", "824 visits, 2 replies"],
+          ["[L'amour](https://www.lapassiondespoemes.com/?action=viewpost&ID=76546&cat=1)", "Love poems", "5 May 2017", "1125 visits, 2 replies"],
+          ["[Amourphobie](https://www.lapassiondespoemes.com/?action=viewpost&ID=74062&cat=1)", "Love poems", "19 Mar 2016", "1232 visits"],
+          ["[Le choix de t'aimer](https://www.lapassiondespoemes.com/?action=viewpost&ID=74058&cat=1)", "Love poems", "18 Mar 2016", "1135 visits, 1 reply"],
+          ["[La passion des poèmes](https://www.lapassiondespoemes.com/?action=viewpost&ID=73744&cat=1)", "Love poems", "11 Feb 2016", "996 visits, 2 replies"],
+          ["[Pour mes frères](https://www.lapassiondespoemes.com/?action=viewpost&ID=73550&cat=1)", "Love poems", "19 Jan 2016", "802 visits, 4 replies"],
+          ["[Maman](https://www.lapassiondespoemes.com/?action=viewpost&ID=73442&cat=1)", "Love poems", "6 Jan 2016", "2480 visits, 8 replies"],
+          ["[A toi ma belle !](https://www.lapassiondespoemes.com/?action=viewpost&ID=73430&cat=1)", "Love poems", "5 Jan 2016", "1405 visits, 9 replies"],
+          ["[Mon rêve exaucé](https://www.lapassiondespoemes.com/?action=viewpost&ID=73419&cat=1)", "Love poems", "4 Jan 2016", "813 visits, 2 replies"],
+          ["[Fin de disette ?](https://www.lapassiondespoemes.com/?action=viewpost&ID=71240&cat=1)", "Love poems", "6 May 2015", "848 visits, 1 reply"],
+          ["[Endurance](https://www.lapassiondespoemes.com/?action=viewpost&ID=39371&cat=2)", "Sad poems", "18 Oct 2018", "993 visits, 2 replies"],
+          ["[L'enfant seul](https://www.lapassiondespoemes.com/?action=viewpost&ID=37525&cat=2)", "Sad poems", "11 Feb 2016", "1153 visits, 2 replies"],
+          ["[La vie : tonneau de danaïdes](https://www.lapassiondespoemes.com/?action=viewpost&ID=37512&cat=2)", "Sad poems", "9 Feb 2016", "843 visits"],
+          ["[Ma vie c'est Paris et pari est ma vie](https://www.lapassiondespoemes.com/?action=viewpost&ID=5749&cat=7)", "Humorous poems", "28 Mar 2016", "950 visits, 4 replies"],
+          ["[Hé andouille!](https://www.lapassiondespoemes.com/?action=viewpost&ID=5734&cat=7)", "Humorous poems", "20 Mar 2016", "1082 visits, 3 replies"],
+          ["[L'hymne à la communauté](https://www.lapassiondespoemes.com/?action=viewpost&ID=42977&cat=8)", "Other poems", "28 Apr 2017", "849 visits, 2 replies"],
+          ["[Risque et solidarité](https://www.lapassiondespoemes.com/?action=viewpost&ID=7815&cat=10)", "Short forms", "6 Oct 2018", "1083 visits, 2 replies"],
+          ["[Je t'aime en des mots simples](https://www.lapassiondespoemes.com/?action=viewpost&ID=2302&cat=14)", "Acrostics", "3 May 2017", "1430 visits, 1 reply"]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Themes"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "[b]Love and tenderness[/b]: several poems speak from intimate attachment, gratitude, admiration, or emotional vulnerability.",
+          "[b]Family and belonging[/b]: titles such as [i]Papa[/i], [i]Maman[/i], and [i]Pour mes frères[/i] show writing as a way to honor relationships.",
+          "[b]Social feeling[/b]: [i]Risque et solidarité[/i] and [i]L'hymne à la communauté[/i] place individual emotion inside a collective horizon.",
+          "[b]Melancholy and endurance[/b]: the sad-poem category carries the struggle to remain standing when life becomes heavy.",
+          "[b]Playfulness[/b]: humorous poems keep the archive from becoming only solemn; language is also a space for games and surprise."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "From Poetry to Technical Writing"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "My writing is not limited to poetry. Public records also preserve older computer-science tutorials and courses: Java pagination, MVC application design, and producing Windows executables from JAR files. This continuity matters to me: poetry and technical writing are different forms of transmission, but both require structure, audience awareness, and care for clarity."
+      }
+    },
+    {
+      "type": "link-groups",
+      "style": ["other-links"],
+      "data": {
+        "title": "Read More",
+        "columns": 2,
+        "groups": [
+          {
+            "title": "Poetry",
+            "links": [
+              {
+                "label": "Maxim10 profile",
+                "url": "https://www.lapassiondespoemes.com/?action=userinfo&ID=12662",
+                "external": true,
+                "icon": "link"
+              },
+              {
+                "label": "Full poetry portfolio",
+                "url": "https://www.lapassiondespoemes.com/?action=SHOWPORTFOLIO&ID=12662",
+                "external": true,
+                "icon": "link"
+              }
+            ]
+          },
+          {
+            "title": "Technical writing signal",
+            "links": [
+              {
+                "label": "Public LinkedIn course list",
+                "url": "https://cm.linkedin.com/in/ndadjimilliam",
+                "external": true,
+                "icon": "linkedin"
+              }
+            ]
+          }
+        ]
       }
     }
   ]

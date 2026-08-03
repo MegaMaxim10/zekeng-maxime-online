@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "id": "data-and-information-systems",
+    "title": "Data and Information Systems",
+    "description": "Courses on databases, relational modeling, SQL, information systems, and the role of data models in the design of applications.",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "teaching",
+      "databases",
+      "sql",
+      "information-systems"
+    ]
+  },
+  "header": {
+    "title": "Data and Information Systems",
+    "lead": "These courses train students to model, store, query, and reason about data as the foundation of reliable information systems."
+  },
+  "body": [
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Course Context"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "This family covers introductory databases, object databases, database practice, and information-system-oriented teaching. It is closely connected to programming and software engineering because application quality often depends on how well data is modeled, constrained, queried, and protected."
+      }
+    },
+    {
+      "type": "table",
+      "style": ["teaching-record-table"],
+      "data": {
+        "caption": "Teaching record",
+        "compact": true,
+        "headers": ["Years", "Role", "Institution", "Track / level", "Courses documented"],
+        "rows": [
+          ["2016-2021", "Teaching assistant / monitor", "University of Dschang, Department of Mathematics and Computer Science", "Mathematics and Computer Science / Computer Science practical groups, mainly L2", "Introduction to Databases / INF103 and database lab work"],
+          ["2022-2023", "Visiting lecturer / course instructor", "Douala Institute of Technology (DIT)", "M1 engineering cohort", "Object Databases"],
+          ["2023-2024", "Visiting lecturer / course instructor", "Douala Institute of Technology (DIT)", "Higher-education computing cohort", "Databases and database-backed development"],
+          ["2024-2026", "Course lecturer / instructor", "University of Dschang, ISOC and applied systems contexts", "Master-level and application-development activities", "Data persistence, data modeling and database integration in application projects"]
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "data": {
+        "compact": true,
+        "headers": ["Representative labels", "Teaching focus"],
+        "rows": [
+          ["Introduction to Databases", "Entity-relationship modeling, relational model, normalization, and SQL basics."],
+          ["Database Practice", "CRUD operations, joins, constraints, transactions, scripts, and practical SQL exercises."],
+          ["Object Databases", "Persistence of object-oriented structures and alternatives to purely relational modeling."],
+          ["Information Systems", "Connection between data, users, business rules, processes, and application behavior."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Main Notions"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Conceptual modeling: entities, relationships, attributes, cardinalities, identifiers, and constraints.",
+          "Relational schema design, normalization, keys, integrity constraints, and schema evolution.",
+          "SQL: selection, projection, joins, aggregation, nested queries, updates, and transactions.",
+          "Database-backed applications and the link between user needs, data models, and application logic.",
+          "Introductory perspectives on object databases and non-relational storage when relevant."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "How the Course Runs"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "The course generally alternates modeling work and executable database practice. Students are asked to design schemas, critique them, write queries, load data, detect inconsistencies, and connect database structures to application scenarios."
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "[b]Model first[/b]: students learn to represent a real domain before creating tables.",
+          "[b]Query by intention[/b]: SQL is taught as a way to express information needs, not only as syntax to memorize.",
+          "[b]From data to system[/b]: exercises show how database decisions affect software behavior and user workflows."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Competencies Developed"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "Design a coherent database schema from a real or simulated domain.",
+          "Write SQL queries and interpret their results.",
+          "Identify redundancy, inconsistency, and integrity problems.",
+          "Connect data modeling decisions to application requirements.",
+          "Reason about data as an asset that must remain understandable and reliable over time."
+        ]
+      }
+    }
+  ]
+}

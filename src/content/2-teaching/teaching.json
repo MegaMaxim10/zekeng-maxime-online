@@ -2,25 +2,193 @@
   "meta": {
     "id": "teaching",
     "title": "Teaching",
+    "description": "A structured overview of my teaching portfolio, from computer literacy and programming foundations to software engineering, cloud systems, artificial intelligence, and advanced computing.",
     "language": "en",
-    "version": "1.0"
+    "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "teaching",
+      "computer-science",
+      "software-engineering",
+      "programming",
+      "higher-education"
+    ],
+    "genSubMenus": false,
+    "genRelatedPages": true
   },
   "header": {
     "title": "Teaching",
-    "lead": "Courses, mentoring, and teaching contributions."
+    "lead": "My teaching work connects computer science foundations, software engineering practice, and applied digital systems. The courses below are grouped by intellectual proximity so that readers can quickly understand the substance of what I teach."
   },
   "body": [
     {
       "type": "heading",
       "data": {
         "level": 2,
-        "text": "Teaching Activities"
+        "text": "Teaching Snapshot"
       }
     },
     {
       "type": "paragraph",
       "data": {
-        "text": "This page is currently under construction. More content will be available soon."
+        "text": "This overview is built from my teaching materials across university courses, higher-education teaching assignments, and earlier tutorial/practical interventions. I focus here on the courses themselves: their themes, learning logic, practical activities, and competencies developed by students."
+      }
+    },
+    {
+      "type": "card-grid",
+      "style": ["teaching-stat-grid"],
+      "data": {
+        "cards": [
+          {
+            "title": "8 course families",
+            "description": "A synthesized map of related courses, from digital literacy to advanced software and computing systems."
+          },
+          {
+            "title": "20+ course labels",
+            "description": "Recurring course titles and variants grouped into coherent teaching areas instead of isolated administrative labels."
+          },
+          {
+            "title": "5+ institutions",
+            "description": "A documented teaching footprint across the University of Dschang and partner higher-education institutions."
+          },
+          {
+            "title": "2013-2026 archive",
+            "description": "A long teaching trail combining practical monitoring, core courses, visiting lectures, and professional masters."
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Institutional Footprint"
+      }
+    },
+    {
+      "type": "paragraph",
+      "style": ["teaching-note"],
+      "data": {
+        "text": "The table below summarizes what is documented in my local teaching materials. It is meant as a readable teaching map rather than a formal administrative service record."
+      }
+    },
+    {
+      "type": "table",
+      "style": ["teaching-record-table"],
+      "data": {
+        "compact": true,
+        "headers": ["Institution / program", "Years in the materials", "Role", "Levels and tracks", "Main course families"],
+        "rows": [
+          ["University of Dschang, Faculty of Science", "2022-2026", "Course lecturer / main instructor", "L1-L3 undergraduate courses, Computer Science at M1 level, and professional master contexts; Biology, Chemistry, Physics, Renewable Energy, Computer Science, connected systems and related programs", "Computer literacy, scientific computing in Python, algorithmics, programming, software engineering, operating systems, cloud, mobile and connected systems"],
+          ["University of Dschang, tutorials and practical work archive", "2013-2022", "Teaching assistant / monitor", "Mathematics and Computer Science at L1-L2 level, Computer Science at L1-M1 level, and practical laboratory groups", "Java/OOP, web programming, databases, functional programming, data structures, middleware, compilation and software engineering"],
+          ["Douala Institute of Technology (DIT)", "2021-2024", "Visiting lecturer / course instructor", "L3, M1 and M2 engineering-oriented cohorts", "AI, HMI, distributed programming, functional and logic programming, operations research, databases, client-server development, Java and web/XML programming"],
+          ["University of the Mountains (UdM)", "2021-2026", "Visiting lecturer / course instructor", "Engineering and technology tracks, including software/service-oriented training", "Software architecture, service engineering, web development, advanced OOP modeling, design patterns and quality engineering"],
+          ["Adventist University Cosendai", "2024-2026", "Visiting lecturer / course instructor", "Bachelor-level Computer Science / Software Engineering contexts", "Python, OOP, mobile development, software engineering, AI and expert systems"],
+          ["University of Bamenda, College of Technology", "2026-2027 materials", "Course lecturer / prepared teaching material", "Software Engineering / technology-oriented engineering training", "Software engineering, object-oriented modeling, requirements and architecture"]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "What I Try to Build in Students"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "[b]Conceptual clarity[/b]: students should understand the definitions, models, constraints, and invariants behind the tools they use.",
+          "[b]Practical autonomy[/b]: each course is oriented toward exercises, projects, implementation choices, and the ability to continue learning independently.",
+          "[b]Engineering judgment[/b]: beyond writing code, learners are trained to reason about trade-offs, maintainability, architecture, testing, security, and evolution.",
+          "[b]Communication of technical work[/b]: many activities require students to explain a design, justify an algorithm, document a project, or present a solution."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Course Families"
+      }
+    },
+    {
+      "type": "card-grid",
+      "style": ["teaching-domain-grid"],
+      "data": {
+        "cards": [
+          {
+            "title": "Computer Literacy and Scientific Computing for Science Students",
+            "description": "Introductory computer science, digital tools, scientific work habits, and applied scientific computing in Python for non-specialist science students.",
+            "link": "2-teaching/1-computer-literacy/computer-literacy.html",
+            "linkLabel": "Explore this family"
+          },
+          {
+            "title": "Algorithmics, Data Structures and Programming Foundations",
+            "description": "Problem decomposition, algorithm design, control structures, functions, recursion, data structures, complexity intuition, and implementation discipline.",
+            "link": "2-teaching/2-programming-foundations/programming-foundations.html",
+            "linkLabel": "Explore this family"
+          },
+          {
+            "title": "Programming Paradigms and Languages",
+            "description": "Functional programming, logic programming, object-oriented programming, Java, Python, and the shift from syntax to programming style.",
+            "link": "2-teaching/3-programming-paradigms/programming-paradigms.html",
+            "linkLabel": "Explore this family"
+          },
+          {
+            "title": "Data and Information Systems",
+            "description": "Relational modeling, SQL, database design, object databases, information systems, and the connection between data models and applications.",
+            "link": "2-teaching/4-data-and-information-systems/data-and-information-systems.html",
+            "linkLabel": "Explore this family"
+          },
+          {
+            "title": "Web, Mobile and Application Development",
+            "description": "Client-server applications, dynamic web programming, APIs, mobile development, frontend/backend integration, and project-based delivery.",
+            "link": "2-teaching/5-web-mobile-and-application-development/web-mobile-and-application-development.html",
+            "linkLabel": "Explore this family"
+          },
+          {
+            "title": "Software Engineering, Architecture and Design",
+            "description": "Software lifecycle, requirements, UML, design patterns, advanced architecture, quality, refactoring, testing, BPMN, and maintainability.",
+            "link": "2-teaching/6-software-engineering-and-architecture/software-engineering-and-architecture.html",
+            "linkLabel": "Explore this family"
+          },
+          {
+            "title": "Distributed, Cloud and Systems Engineering",
+            "description": "Operating systems, distributed programming, middleware, cloud computing, service engineering, integration, scalability, and deployment-oriented thinking.",
+            "link": "2-teaching/7-distributed-cloud-and-service-engineering/distributed-cloud-and-service-engineering.html",
+            "linkLabel": "Explore this family"
+          },
+          {
+            "title": "AI, Optimization and Advanced Computing",
+            "description": "Artificial intelligence, expert systems, formal logic, operations research, parallel processing, embedded systems, and advanced computing topics.",
+            "link": "2-teaching/8-ai-optimization-and-advanced-computing/ai-optimization-and-advanced-computing.html",
+            "linkLabel": "Explore this family"
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Teaching Method"
+      }
+    },
+    {
+      "type": "table",
+      "style": ["teaching-method-table"],
+      "data": {
+        "compact": true,
+        "headers": ["Dimension", "How it appears in the courses"],
+        "rows": [
+          ["Conceptual framing", "Each course starts from the problem, the vocabulary, the model, and the rules students must master."],
+          ["Practice", "Exercises, tutorials, labs, code reading, modeling activities, and projects are used to transform concepts into skills."],
+          ["Progressive complexity", "Students move from small controlled problems to more open-ended tasks involving design choices and trade-offs."],
+          ["Assessment", "Continuous assessment, written exams, project reports, presentations, quizzes, and practical deliverables are combined depending on the course."],
+          ["Professional orientation", "Where relevant, courses include Git, documentation, testing, APIs, architecture, deployment, teamwork, and maintainable code."]
+        ]
       }
     }
   ]

@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "id": "technical-outreach-and-public-tutorials",
+    "title": "Technical Outreach and Public Tutorials",
+    "description": "Public computer-science tutorials, outreach videos, and informal educational content published beyond formal teaching duties.",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2026-08-03",
+    "tags": [
+      "technical-writing",
+      "tutorials",
+      "computer-science",
+      "public-outreach",
+      "education"
+    ],
+    "genSubMenus": false
+  },
+  "header": {
+    "title": "Technical Outreach and Public Tutorials",
+    "lead": "Before and alongside formal university teaching, I also published technical explanations and public learning material for broader audiences."
+  },
+  "body": [
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Knowledge Outside the Classroom"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "Some of my public technical activity predates the current portfolio. I published computer-science tutorials in the ecosystem historically associated with Site du Zero / OpenClassrooms, and public records still list courses on Java pagination, MVC application design, and generating Windows executables from JAR files. These works belong here because they show the same impulse that later became central to my teaching: make technical knowledge usable by people who are still building their confidence."
+      }
+    },
+    {
+      "type": "table",
+      "style": ["other-works-table"],
+      "data": {
+        "compact": true,
+        "headers": ["Public course / tutorial", "Focus", "Why it matters"],
+        "rows": [
+          ["Créer un système de pagination en Java", "Java, data display, page navigation, implementation details", "A practical problem that forces the learner to connect interface needs, data access, and algorithmic structure."],
+          ["Créez des applications de qualité avec le design pattern MVC", "MVC, separation of concerns, maintainable application structure", "An entry point into software design discipline: code organization, roles, responsibilities, and future evolution."],
+          ["Créez des exécutables Windows classique (.exe) à partir des Executables JAR Files (.jar)", "Java packaging, desktop delivery, executable generation", "A delivery-oriented tutorial: helping learners move from code that runs locally to software that can be distributed."],
+          ["Public technical videos and project explanations", "Short-form explanation, product communication, outreach", "A way to connect technical projects with audiences that may not read formal documentation."]
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Example Video"
+      }
+    },
+    {
+      "type": "embed",
+      "style": ["other-feature-embed"],
+      "data": {
+        "kind": "iframe",
+        "src": "https://www.youtube.com/embed/uHXnW1MrlWM",
+        "title": "Administrative Process Simulation with P2PTinyWfMS",
+        "caption": "A SmartWorkflow demonstration of administrative-process simulation with P2PTinyWfMS, published in 2021.",
+        "ratio": "16 / 9"
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Outreach Method"
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "items": [
+          "[b]Start from a concrete need[/b]: pagination, MVC, packaging, or a project explainer are easier to learn when the learner sees the use case.",
+          "[b]Turn hidden engineering into visible steps[/b]: good tutorials make decisions, constraints, and trade-offs explicit.",
+          "[b]Respect beginner confusion[/b]: a topic is not simple just because it has become familiar to the teacher.",
+          "[b]Connect learning to delivery[/b]: a lesson should help someone build, test, share, or explain something real.",
+          "[b]Keep a public trace[/b]: online courses, videos, and archives allow learning material to outlive the first audience."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": 2,
+        "text": "Continuity With My Portfolio"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "This outreach work links naturally with my teaching, consulting, and research pages. Whether I am explaining Java pagination, supervising a hackathon, teaching software engineering, or designing a delivery forge, the underlying commitment is the same: make complex systems understandable enough for people to act responsibly on them."
+      }
+    },
+    {
+      "type": "link-groups",
+      "style": ["other-links"],
+      "data": {
+        "title": "Public Signals",
+        "columns": 2,
+        "groups": [
+          {
+            "title": "Courses",
+            "links": [
+              {
+                "label": "LinkedIn course list",
+                "url": "https://cm.linkedin.com/in/ndadjimilliam",
+                "external": true,
+                "icon": "linkedin"
+              }
+            ]
+          },
+          {
+            "title": "Video",
+            "links": [
+              {
+                "label": "SmartWorkflow channel",
+                "url": "https://www.youtube.com/@smartworkflow8137",
+                "external": true,
+                "icon": "link"
+              },
+              {
+                "label": "Administrative Process Simulation with P2PTinyWfMS",
+                "url": "https://www.youtube.com/watch?v=uHXnW1MrlWM",
+                "external": true,
+                "icon": "link"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
